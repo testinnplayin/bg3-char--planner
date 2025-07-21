@@ -1,0 +1,18 @@
+{
+  "name": "Acid Splash",
+  "type": "magic",
+  "school": "conjuration",
+  "damage": {
+    "type": "acid",
+    "numberOfDice": {
+      "1": 1,
+      "5": 2,
+      "10": 3
+    },
+    "dieType": 6
+  },
+  "actionType": "action",
+  "needsToHit": false,
+  "savingThrow": "dexterity",
+  "category": "cantrip"
+}

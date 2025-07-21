@@ -1,0 +1,64 @@
+{
+  "name": "Githyanki",
+  "label": "githyanki",
+  "type": "race",
+  "size": "M",
+  "movementInMeters": 9,
+  "subraces": [],
+  "abilities": [
+    {
+      "name": "Astral Knowledge",
+      "type": "skillProfiencyBonus",
+      "skills": ["all"],
+      "skillCategory": ["all"],
+      "timesPerLongRest": 1,
+      "duration": "longRest"
+    },
+    {
+      "name": "Martial Prodigy",
+      "type": "weaponAndArmorProficiency",
+      "baseWeaponProficiencies": {
+        "martialMelee": {
+          "versatile": ["longsword"],
+          "finesse1H": ["shortsword"],
+          "normal2H": ["greatsword"]
+        }
+      },
+      "armorProficiencies": ["clothing", "light", "medium"]
+    }
+  ],
+  "progression": {
+    "1": {
+      "actions": [
+        {
+          "name": "Githyanki Psionics",
+          "type": "spells",
+          "spell": "Mage Hand",
+          "timesPerLongRest": 1
+        }
+      ]
+    },
+    "3": {
+      "actions": [
+        {
+          "name": "Githyanki Psionics",
+          "type": "spells",
+          "spell": "Enhanced Leap",
+          "timesPerLongRest": 1,
+          "castingLevel": 1
+        }
+      ]
+    },
+    "5": {
+      "bonusActions": [
+        {
+          "name": "Githyanki Psionics",
+          "type": "spells",
+          "spell": "Misty Step",
+          "timesPerLongRest": 1,
+          "castingLevel": 2
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Elf",
+  "label": "elf",
+  "size": "M",
+  "movementInMeters": 9,
+  "subraces": ["highElf", "woodElf"],
+  "abilities": [
+    {
+      "name": "Elven Weapon Training",
+      "type": "weaponProficiency",
+      "baseWeaponProficiencies": {
+        "martialMelee": {
+          "normal1H": ["longsword"],
+          "finesse1H": ["shortsword"]
+        },
+        "martialRanged": {
+          "2H": ["longbow", "shortbow"]
+        }
+      }
+    },
+    {
+      "name": "Keen Senses",
+      "baseSkillProficiencies": {
+        "wisdom": {
+          "perception": 2
+        }
+      },
+      "type": "skillProficiency"
+    }
+  ],
+  "passives": [
+    {
+      "name": "Darkvision",
+      "description": "See in dark up to 12m",
+      "type": "physicalAbility"
+    },
+    {
+      "name": "Fey Ancestry",
+      "type": "statusImmunity",
+      "immunityTypes": [
+        "sleep"
+      ],
+      "resistanceTypes": [
+        "charm"
+      ]
+    },
+    {
+      "name": "Fey Ancestry",
+      "type": "statusResistance",
+      "resistanceTypes": [
+        "charm"
+      ]
+    }
+  ]
+}

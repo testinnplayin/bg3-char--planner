@@ -1,0 +1,17 @@
+{
+  "name": "Karlach",
+  "label": "karlach",
+  "description": "Fury of Avernus",
+  "raceInformation": {
+    "race": "Tiefling",
+    "label": "zarielTiefling",
+    "subrace": "Zariel Tiefling"
+  },
+  "size": "M",
+  "category": "Origin",
+  "class": "barbarian",
+  "subclass": "berserker",
+  "level": 1,
+  "background": "outlander",
+  "movementInMeters": 9
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Tiefling",
+  "label": "tiefling",
+  "type": "race",
+  "size": "M",
+  "movementInMeters": 9,
+  "subraces": ["asmodeusTiefling", "mephistophelesTiefling", "zarielTiefling"],
+  "passives": [
+    {
+      "name": "Darkvision",
+      "description": "See in dark up to 12m",
+      "type": "physicalAbility"
+    },
+    {
+      "name": "Hellish Resistance",
+      "type": "passiveDamageSoak",
+      "damageType": "fire",
+      "permanent": {
+        "soak": {
+          "ko": "half",
+          "ok": "all"
+        }
+      }
+    }
+  ]
+}

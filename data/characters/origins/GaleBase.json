@@ -1,0 +1,14 @@
+{
+  "name": "Gale",
+  "label": "gale",
+  "description": "Wizard Prodigy",
+  "raceInformation": {
+    "race": "Human",
+    "label": "human"
+  },
+  "category": "Origin",
+  "class": "wizard",
+  "subclass": "evocation",
+  "level": 1,
+  "background": "sage"
+}

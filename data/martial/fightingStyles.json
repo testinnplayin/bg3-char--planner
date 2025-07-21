@@ -1,0 +1,58 @@
+{
+  "name": "Fighting Styles",
+  "label": "fightingStyles",
+  "abilities": [
+    {
+      "name": "Archery",
+      "toHit": 2,
+      "weaponType": "ranged",
+      "type": "toHitBonusRanged"
+    },
+    {
+      "name": "Defence",
+      "acBonus": 1,
+      "conditionals": [
+        "withArmor"
+      ],
+      "type": "acBonus"
+    },
+    {
+      "name": "Duelling",
+      "damageBonus": 2,
+      "conditionals": [
+        "if1H",
+        "ifOnlyWeapon"
+      ],
+      "type": "damageBonusMelee1H"
+    },
+    {
+      "name": "Great Weapon Fighting",
+      "damageReroll": {
+        "rerolls": [
+          1,
+          2
+        ]
+      },
+      "conditionals": [
+        "once"
+      ],
+      "type": "damageReroll"
+    },
+    {
+      "name": "Protection",
+      "toHitDisadvantage": "lowest",
+      "conditionals": [
+        "inRange",
+        "withShield"
+      ],
+      "type": "allyProtection"
+    },
+    {
+      "name": "Two-Weapon Fighting",
+      "damage": {
+        "offHand": "full"
+      },
+      "type": "damageBonusMeleeOffHand"
+    }
+  ]
+}

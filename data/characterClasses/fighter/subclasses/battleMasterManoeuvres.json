@@ -1,0 +1,230 @@
+{
+  "name": "Battle Master Manoeuvres",
+  "type": "martialActions",
+  "label": "battleMasterManoeuvres",
+  "actions": [
+    {
+      "name": "Disarming Attack (Melee)",
+      "type": "disarm",
+      "label": "disarmingAttackM",
+      "savingThrows": ["strength"],
+      "additionalDamage": true
+    },
+    {
+      "name": "Disarming Attack (Ranged)",
+      "type": "disarm",
+      "label": "disarmingAttackR",
+      "savingThrows": ["strength"],
+      "additionalDamage": true
+    },
+    {
+      "name": "Distracting Strike (Melee)",
+      "type": "allyToHitAdvantage",
+      "label": "distrackingStrikeM",
+      "conditionals": ["once"]
+    },
+    {
+      "name": "Distracting Strike (Ranged)",
+      "type": "allyToHitAdvantage",
+      "label": "distrackingStrikeR",
+      "conditionals": [
+        "once"
+      ]
+    },
+    {
+      "name": "Goading Attack (Melee)",
+      "type": "taunt",
+      "label": "goadingAttackM",
+      "conditionals": [
+        "once",
+        "allyEvasion",
+        "allAllies"
+      ]
+    },
+    {
+      "name": "Goading Attack (Ranged)",
+      "type": "taunt",
+      "label": "goadingAttackR",
+      "conditionals": [
+        "once",
+        "allyEvasion",
+        "allAllies"
+      ]
+    },
+    {
+      "name": "Manoeuvring Attack (Melee)",
+      "type": "allySpeedBoost",
+      "label": "manoeuvringAttackM",
+      "conditionals": ["once", "increaseByHalf", "oneAlly"],
+      "additionalDamage": true
+    },
+    {
+      "name": "Manoeuvring Attack (Ranged)",
+      "type": "allySpeedBoost",
+      "label": "manoeuvringAttackR",
+      "conditionals": [
+        "once",
+        "increaseByHalf",
+        "oneAlly"
+      ],
+      "additionalDamage": true
+    },
+    {
+      "name": "Menacing Attack (Melee)",
+      "type": "statusAttack",
+      "label": "menacingAttackM",
+      "conditionals": ["once", "oneEnemy"],
+      "statusEffect": "Fear",
+      "savingThrows": ["wisdom"]
+    },
+    {
+      "name": "Menacing Attack (Ranged)",
+      "type": "statusAttack",
+      "label": "menacingAttackR",
+      "conditionals": [
+        "once",
+        "oneEnemy"
+      ],
+      "statusEffect": "Fear",
+      "savingThrows": [
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Pushing Attack (Melee)",
+      "type": "shove",
+      "label": "pushingAttackM",
+      "savingThrows": ["strength"],
+      "additionalDamage": true
+    },
+    {
+      "name": "Pushing Attack (Ranged)",
+      "type": "shove",
+      "label": "pushingAttackR",
+      "savingThrows": [
+        "strength"
+      ],
+      "additionalDamage": true
+    },
+    {
+      "name": "Sweeping Attack",
+      "type": "aoeMelee",
+      "label": "sweepingAttack",
+      "additionalDamage": true,
+      "rangeInMeters": 2,
+      "conditionals": ["noStrMod", "noEnchMod", "noGWMMod"]
+    },
+    {
+      "name": "Trip Attack (Melee)",
+      "type": "statusAttack",
+      "label": "tripAttackM",
+      "additionalDamage": true,
+      "savingThrows": ["strength"]
+    },
+    {
+      "name": "Trip Attack (Ranged)",
+      "type": "statusAttack",
+      "label": "tripAttackR",
+      "additionalDamage": true,
+      "savingThrows": [
+        "strength"
+      ]
+    }
+  ],
+  "actionBonusActions": [
+    {
+      "name": "Commander's Strike",
+      "type": "allyAttackReaction",
+      "timesPerTurn": 1,
+      "label": "commandersStrike",
+      "conditionals": ["once", "oneAlly"]
+    },
+    {
+      "name": "Feinting Attack",
+      "type": "damageAdvantage",
+      "label": "feintingAttack",
+      "additionalDamage": true,
+      "conditionals": ["once"]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Disarming Attack",
+      "type": "disarm",
+      "label": "disarmingAttack",
+      "linkedActions": ["disarmingAttackM", "disarmingAttackR"]
+    },
+    {
+      "name": "Distracting Strike",
+      "type": "allyToHitAdvantage",
+      "label": "distrackingStrike",
+      "linkedActions": ["disarmingAttackM", "disarmingAttackR"]
+    },
+    {
+      "name": "Evasive Footwork",
+      "type": "toHitDisadvantage",
+      "conditionals": [
+        "melee"
+      ]
+    },
+    {
+      "name": "Goading Attack",
+      "type": "taunt",
+      "label": "goadingAttack",
+      "linkedActions": ["goadingAttackM", "goadingArrackR"]
+    },
+    {
+      "name": "Manoeuvring Attack",
+      "type": "allySpeedBoost",
+      "label": "manoeuvringAttack",
+      "linkedActions": ["manoeuvringAttackM", "manoeuvringAttackR"]
+    },
+    {
+      "name": "Menacing Attack",
+      "type": "statusAttack",
+      "label": "menacingAttack",
+      "linkedActions": ["menacingAttackM", "menacingAttackR"]
+    },
+    {
+      "name": "Precision Attack",
+      "labeltype": "toHitBonus",
+      "label": "precisionAttack",
+      "conditionals": ["addSuperiorityDie", "once", "normalWeapon"],
+      "timesPerTurn": 1
+    },
+    {
+      "name": "Pushing Attack",
+      "type": "shove",
+      "label": "pushingAttack",
+      "linkedActions": ["pushingAttackM", "pushingAttackR"]
+    },
+    {
+      "name": "Trip Attack",
+      "type": "statusAttack",
+      "label": "tripAttack",
+      "linkedActions": ["tripAttackM", "tripAttackR"]
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Rally",
+      "type": "allyHeal",
+      "label": "rally",
+      "heal": {
+        "numberOfDice": 1,
+        "hps": 8,
+        "durationInTurns": 5
+      },
+      "timesPerTurn": 1
+    }
+  ],
+  "passives": [
+    {
+      "name": "Riposte",
+      "type": "meleeReaction",
+      "label": "riposte",
+      "additionalDamage": true,
+      "timesPerTurn": 1
+    }
+  ]
+}

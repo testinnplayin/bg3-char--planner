@@ -1,0 +1,40 @@
+{
+  "name": "Astarion",
+  "label": "astarion",
+  "description": "Vampire Spawn",
+  "raceInformation": {
+    "race": "Elf",
+    "subRace": "High Elf",
+    "labels": ["elf", "highElf"]
+  },
+  "category": "Origin",
+  "class": "rogue",
+  "subclass": "arcaneTrickster",
+  "level": 1,
+  "background": "charlatan",
+  "other": {
+    "vampireBite": {
+      "damage": "2d4",
+      "damageType": "P",
+      "heal": "2d4",
+      "bonuses": {
+        "toHit": 1,
+        "savingThrows": {
+          "all": 1
+        },
+        "abilityChecks": {
+          "all": 1
+        },
+        "debuffsToOthers": {
+          "toHit": -1,
+          "savingThrows": {
+            "all": -1
+          },
+          "abilityChecks": {
+            "all": -1
+          }
+        }
+      }
+    }
+  }
+}

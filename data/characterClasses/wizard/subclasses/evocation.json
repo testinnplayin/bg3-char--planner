@@ -1,0 +1,48 @@
+{
+  "name": "School of Evocation",
+  "type": "fullSpellcaster",
+  "label": "evocation",
+  "progression": {
+    "2": {
+      "abilities": [
+        {
+          "name": "Evocation Savant",
+          "type": "ResourceCostReduction"
+        },
+        {
+          "name": "Sculpt Spells",
+          "savingThrows": {
+            "all": "no damage"
+          },
+          "type": "passiveDamageSoak"
+        }
+      ]
+    },
+    "6": {
+      "abilities": [
+        {
+          "name": "Potent Cantrip",
+          "savingThrows": {
+            "all": {
+              "ko": "half",
+              "ok": "all"
+            },
+            "spellType": "cantrips"
+          },
+          "type": "passiveDamageBoost"
+        }
+      ]
+    },
+    "10": {
+      "abilities": [
+        {
+          "name": "Empowered Evocation",
+          "spells": {
+            "damage": "intelligence",
+            "spellType": "evocation"
+          }
+        }
+      ]
+    }
+  }
+}

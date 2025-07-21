@@ -1,0 +1,27 @@
+{
+  "name": "Booming Blade",
+  "type": "magic",
+  "school": "evocation",
+  "damage": {
+    "type": "thunder",
+    "numberOfDice": {
+      "5": 1,
+      "10": 2
+    },
+    "dieType": 8
+  },
+  "special": {
+    "damage": {
+      "type": "thunder",
+      "numberOfDice": {
+        "1": 1,
+        "5": 2,
+        "10": 3
+      }
+    }
+  },
+  "actionType": "action",
+  "needsToHit": true,
+  "savingThrow": false,
+  "category": "cantrip"
+}

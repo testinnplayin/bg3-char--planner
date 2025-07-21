@@ -1,0 +1,199 @@
+{
+  "name": "Fighter",
+  "type": "martial",
+  "label": "fighter",
+  "attributes": {
+    "strength": 15,
+    "dexterity": 13,
+    "constitution": 14,
+    "intelligence": 10,
+    "wisdom": 12,
+    "charisma": 8
+  },
+  "bonusAttributePoints": {
+    "strength": 2,
+    "constitution": 1
+  },
+  "spellCastingAttributes": ["intelligence"],
+  "baseSavingThrows": {
+    "strength": 2,
+    "constitution": 2
+  },
+  "baseWeaponProficiencies": {
+    "simpleMelee": {
+      "normal1H": ["all"],
+      "normal2H": ["all"],
+      "finesse1H": ["all"],
+      "versatile": ["all"]
+    },
+    "thrown": {
+      "normal": ["all"],
+      "improvised": []
+    },
+    "martialMelee": {
+      "normal1H": ["all"],
+      "normal2H": ["all"],
+      "finesse1H": ["all"],
+      "versatile": ["all"],
+      "polearms": ["all"]
+    },
+    "simpleRanged": {
+      "2H": ["all"]
+    },
+    "martialRanged": {
+      "1H": ["all"],
+      "2H": ["all"]
+    },
+    "other": ["shields"]
+  },
+  "hps": {
+    "starting": 10,
+    "perLevel": 6
+  },
+  "armorProficiencies": ["clothing", "light", "medium", "heavy"],
+  "baseSkillProficiencies": ["acrobatics", "animalHandling", "athletics", "history", "insight", "intimidation", "perception", "survival"],
+  "startingEquipment": {
+    "melee": ["longsword"],
+    "ranged": [],
+    "armor": {
+      "torso": "scaleMail",
+      "feet": "leatherBoots"
+    }
+  },
+  "abilities": [],
+  "progressionType": "martial",
+  "subclasses": ["arcaneArcher", "battlemaster", "champion", "eldritchKnight"],
+  "progression": {
+    "1": {
+      "proficiencyBonus": 2,
+      "hps": 10,
+      "bonusActions": [
+        {
+          "name": "Second Wind",
+          "restType": "short",
+          "type": "selfHeal",
+          "heal": {
+            "numberOfDice": 1,
+            "dieType": 10,
+            "bonus": 1
+          }
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Fighting Style",
+          "type": "fightingStyles",
+          "fightingStyles": ["all"]
+        }
+      ]
+    },
+    "2": {
+      "proficiencyBonus": 2,
+      "hps": 16,
+      "abilities": [
+        {
+          "name": "Action Surge",
+          "type": "additionalActions",
+          "restType": "short",
+          "actions": "double",
+          "timesPerCombat": 1,
+          "durationInTurns": 1
+        }
+      ]
+    },
+    "3": {
+      "proficiencyBonus": 2,
+      "hps": 22,
+      "chooseSubclass": true
+    },
+    "4": {
+      "proficiencyBonus": 2,
+      "hps": 28,
+      "chooseFeat": true
+    },
+    "5": {
+      "proficiencyBonus": 3,
+      "hps": 34,
+      "actions": [
+        {
+          "name": "Extra Attack (Melee)",
+          "type": "meleeAttack",
+          "timesPerTurn": 1
+        },
+        {
+          "name": "Extra Attack (Ranged)",
+          "type": "rangedAttack",
+          "timesPerTurn": 1
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Extra Attack",
+          "type": "additionalAttacks",
+          "conditionals": [
+            "meleeAttack",
+            "rangedAttack"
+          ]
+        }
+      ]
+    },
+    "6": {
+      "proficiencyBonus": 3,
+      "hps": 40,
+      "chooseFeat": true
+    },
+    "7": {
+      "proficiencyBonus": 3,
+      "hps": 46
+    },
+    "8": {
+      "proficiencyBonus": 3,
+      "hps": 52,
+      "chooseFeat": true
+    },
+    "9": {
+      "proficiencyBonus": 4,
+      "hps": 58,
+      "abilities": [
+        {
+          "name": "Indomitable",
+          "type": "savingThrowReroll",
+          "savingThrows": ["all"],
+          "soak": {
+            "ko": "reroll"
+          },
+          "conditionals": ["once"],
+          "timesPerCombat": 1,
+          "restType": "long"
+        }
+      ]
+    },
+    "10": {
+      "proficiencyBonus": 4,
+      "hps": 64
+    },
+    "11": {
+      "proficiencyBonus": 4,
+      "hps": 70,
+      "actions": [
+        {
+          "name": "Improved Extra Attack (Melee)",
+          "type": "meleeAttack",
+          "timesPerTurn": 2
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Improved Extra Attack",
+          "type": "additionalActions",
+          "conditionals": ["meleeAttack"]
+        }
+      ]
+    },
+    "12": {
+      "proficiencyBonus": 4,
+      "hps": 76,
+      "chooseFeat": true
+    }
+  }
+}
