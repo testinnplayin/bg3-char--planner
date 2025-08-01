@@ -1,0 +1,31 @@
+{
+  "name": "Dagger",
+  "type": "finesse1H",
+  "categories": ["simple", "melee", "thrown"],
+  "label": "dagger",
+  "damage": {
+    "damageType": "P",
+    "dieType": 4,
+    "numberOfDice": 1,
+    "mods": ["dexterity", "strength"]
+  },
+  "toHit": {
+    "melee": ["dexterity", "strength"],
+    "thrown": "strength"
+  },
+  "properties": ["finesse", "light", "thrown"],
+  "actions": [
+    {
+      "name": "Piercing Strike",
+      "type": "weaponAttack",
+      "restType": "short",
+      "statusEffect": "Gaping Wounds",
+      "savingThrows": ["constitution"],
+      "conditionals": ["once", "oneEnemy"],
+      "damage": {
+        "damageType": "P",
+        "additionalDamage": 2
+      }
+    }
+  ]
+}

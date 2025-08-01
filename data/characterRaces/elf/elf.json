@@ -36,7 +36,7 @@
     },
     {
       "name": "Fey Ancestry",
-      "type": "statusImmunity",
+      "type": "buff",
       "immunityTypes": [
         "sleep"
       ],
@@ -46,7 +46,7 @@
     },
     {
       "name": "Fey Ancestry",
-      "type": "statusResistance",
+      "type": "buff",
       "resistanceTypes": [
         "charm"
       ]

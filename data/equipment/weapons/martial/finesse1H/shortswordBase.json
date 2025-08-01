@@ -1,0 +1,43 @@
+{
+  "name": "Shortsword",
+  "type": "finesse1H",
+  "categories": ["martial", "melee"],
+  "label": "shortsword",
+  "damage": {
+    "damageType": "P",
+    "dieType": 6,
+    "numberOfDice": 1,
+    "mods": ["strength", "dexterity"]
+  },
+  "toHit": {
+    "melee": ["dexterity", "strength"]
+  },
+  "properties": ["finesse", "light"],
+  "actions": [
+    {
+      "name": "Piercing Strike",
+      "type": "weaponAttack",
+      "restType": "short",
+      "statusEffect": "Gaping Wounds",
+      "savingThrows": ["constitution"],
+      "conditionals": ["once", "oneEnemy"],
+      "damage": {
+        "damageType": "P",
+        "additionalDamage": 2
+      }
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Flourish",
+      "type": "weaponAttack",
+      "restType": "short",
+      "statusEffect": "Off Balance",
+      "savingThrows": ["dexterity"],
+      "conditionals": ["once", "oneEnemy"],
+      "damage": {
+        "damageType": "B"
+      }
+    }
+  ]
+}

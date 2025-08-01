@@ -12,6 +12,8 @@
   "subclass": "arcaneTrickster",
   "level": 1,
   "background": "charlatan",
+  "defaultSkillProficiencies": ["acrobatics", "deception", "perception", "persuasion", "sleightOfHand", "stealth"],
+  "defaultExpertises": ["sleightOfHand", "stealth"],
   "other": {
     "vampireBite": {
       "damage": "2d4",

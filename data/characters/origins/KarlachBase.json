@@ -7,11 +7,37 @@
     "label": "zarielTiefling",
     "subrace": "Zariel Tiefling"
   },
-  "size": "M",
   "category": "Origin",
   "class": "barbarian",
   "subclass": "berserker",
   "level": 1,
   "background": "outlander",
-  "movementInMeters": 9
+  "other": {
+    "abilities": [
+      {
+        "name": "Soul Coins",
+        "type": "buff",
+        "restType": "longRest",
+        "damage": {
+          "damageType": "fire",
+          "dieType": 4,
+          "numberOfDice": 1
+        },
+        "conditionals": ["useSoulCoins"]
+      }
+    ],
+    "passives": [
+      {
+        "name": "Heart of Iron",
+        "type": "buff",
+        "resistanceTypes": ["charm"],
+        "conditionals": ["heartUpgrade1"]
+      },
+      {
+        "name": "Heart Ablaze",
+        "type": "buff",
+        "immunityTypes": ["charm"]
+      }
+    ]
+  }
 }

@@ -1,0 +1,32 @@
+{
+  "name": "Quarterstaff",
+  "type": "versatile",
+  "categories": ["simple", "melee"],
+  "label": "quarterstaff",
+  "damage": {
+    "damageType": "B",
+    "dieType": 6,
+    "numberOfDice": 1,
+    "mods": ["strength"]
+  },
+  "toHit": {
+    "melee": "strength"
+  },
+  "properties": ["versatile"],
+  "otherDamage": {
+    "damageType": "B",
+    "dieType": 8,
+    "numberOfDice": 1,
+    "mods": ["strength"]
+  },
+  "actions": [
+    {
+      "name": "Topple",
+      "type": "weaponAttack",
+      "restType": "short",
+      "statusEffect": "Prone",
+      "savingThrows": ["dexterity"],
+      "conditionals": ["once", "oneEnemy"]
+    }
+  ]
+}

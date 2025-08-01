@@ -1,0 +1,329 @@
+{
+  "name": "Barbarian",
+  "type": "martial",
+  "label": "barbarian",
+  "attributes": {
+    "strength": 15,
+    "dexterity": 13,
+    "constitution": 14,
+    "intelligence": 8,
+    "wisdom": 12,
+    "charisma": 10
+  },
+  "bonusAttributePoints": {
+    "strength": 2,
+    "constitution": 1
+  },
+  "spellCastingAttributes": ["charisma"],
+  "baseSavingThrows": {
+    "strength": 2,
+    "constitution": 2
+  },
+  "baseWeaponProficiencies": {
+    "simpleMelee": {
+      "normal1H": [
+        "all"
+      ],
+      "normal2H": [
+        "all"
+      ],
+      "finesse1H": [
+        "all"
+      ],
+      "versatile": [
+        "all"
+      ]
+    },
+    "thrown": {
+      "normal": [
+        "all"
+      ],
+      "improvised": []
+    },
+    "martialMelee": {
+      "normal1H": [
+        "all"
+      ],
+      "normal2H": [
+        "all"
+      ],
+      "finesse1H": [
+        "all"
+      ],
+      "versatile": [
+        "all"
+      ],
+      "polearms": [
+        "all"
+      ]
+    },
+    "simpleRanged": {
+      "2H": [
+        "all"
+      ]
+    },
+    "martialRanged": {
+      "1H": [
+        "all"
+      ],
+      "2H": [
+        "all"
+      ]
+    },
+    "other": [
+      "shields"
+    ]
+  },
+  "hps": {
+    "starting": 12,
+    "perLevel": 7
+  },
+  "armorProficiencies": ["clothing", "light", "medium"],
+  "baseSkillProficiencies": ["animalHandling", "athletics", "intimidation", "nature", "survival", "perception"],
+  "startingEquipment": {
+    "melee": ["greataxe", "handaxe"],
+    "thrown": ["handaxe"],
+    "armor": {
+      "torso": "barbarianClothes",
+      "feet": "leatherBoots"
+    }
+  },
+  "abilities": ["Rage", "Rage Charges"],
+  "progressionType": "martial",
+  "subclasses": ["berserker", "giant", "wildMagic", "wildHeart"],
+  "progression": {
+    "1": {
+      "proficiencyBonus": 2,
+      "hps": 12,
+      "abilities": [
+        {
+          "name": "Rage Charges",
+          "charges": 2,
+          "restType": "long",
+          "type": "resourceCharges"
+        }
+      ],
+      "bonusActions": [
+        {
+          "name": "Rage",
+          "type": "buff",
+          "damage": {
+            "additionalDamage": 2
+          },
+          "resistanceTypes": ["B", "P", "S"],
+          "savingThrowBonus": "strength"
+        }
+      ],
+      "passives": [
+        {
+          "name": "Unarmoured Defence",
+          "type": "acBuff",
+          "acBonus": {
+            "mod": "constitution"
+          },
+          "conditionals": ["unarmoured"]
+        }
+      ]
+    },
+    "2": {
+      "proficiencyBonus": 2,
+      "hps": 19,
+      "abilities": [
+        {
+          "name": "Rage Charges",
+          "charges": 2,
+          "restType": "long",
+          "type": "resourceCharges"
+        }
+      ],
+      "actions": [
+        {
+          "name": "Reckless Attack",
+          "type": "toHitAdvantage",
+          "toHit": "advantage",
+          "toBeHit": "disadvantage"
+        }
+      ],
+      "passives": [
+        {
+          "name": "Danger Sense",
+          "type": "passiveSavingThrowAdvantage",
+          "permanent": {
+            "savingThrows": ["dexterity"],
+            "conditionals": ["notBlind", "notIncapacitated"]
+          }
+        }
+      ]
+    },
+    "3": {
+      "proficiencyBonus": 2,
+      "hps": 26,
+      "abilities": [
+        {
+          "name": "Rage Charges",
+          "charges": 3,
+          "restType": "long",
+          "type": "resourceCharges"
+        }
+      ],
+      "chooseSubclass": true
+    },
+    "4": {
+      "proficiencyBonus": 2,
+      "hps": 33,
+      "abilities": [
+        {
+          "name": "Rage Charges",
+          "charges": 3,
+          "restType": "long",
+          "type": "resourceCharges"
+        }
+      ],
+      "chooseFeat": true
+    },
+    "5": {
+      "proficiencyBonus": 3,
+      "abilities": [
+        {
+          "name": "Rage Charges",
+          "charges": 3,
+          "restType": "long",
+          "type": "resourceCharges"
+        },
+        {
+          "name": "Extra Attack",
+          "type": "additionalAttacks",
+          "conditionals": [
+            "meleeAttack",
+            "rangedAttack"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "name": "Extra Attack (Melee)",
+          "type": "meleeAttack",
+          "timesPerTurn": 1
+        },
+        {
+          "name": "Extra Attack (Ranged)",
+          "type": "rangedAttack",
+          "timesPerTurn": 1
+        }
+      ],
+      "passives": [
+        {
+          "name": "Fast Movement",
+          "type": "movementIncrease",
+          "additionalMovementInMeters": 3,
+          "conditionals": ["unarmoured"]
+        }
+      ]
+    },
+    "6": {
+      "proficiencyBonus": 3,
+      "hps": 40,
+      "abilities": [
+        {
+          "name": "Rage Charges",
+          "charges": 4,
+          "restType": "long",
+          "type": "resourceCharges"
+        }
+      ]
+    },
+    "7": {
+      "proficiencyBonus": 3,
+      "hps": 47,
+      "abilities": [
+        {
+          "name": "Rage Charges",
+          "charges": 4,
+          "restType": "long",
+          "type": "resourceCharges"
+        }
+      ],
+      "passives": [
+        {
+          "name": "Feral Instinct",
+          "initiativeBonus": 3,
+          "immunityTypes": ["surprised"]
+        }
+      ]
+    },
+    "8": {
+      "proficiencyBonus": 3,
+      "hps": 54,
+      "abilities": [
+        {
+          "name": "Rage Charges",
+          "charges": 4,
+          "restType": "long",
+          "type": "resourceCharges"
+        }
+      ],
+      "chooseFeat": true
+    },
+    "9": {
+      "proficiencyBonus": 4,
+      "hps": 61,
+      "abilities": [
+        {
+          "name": "Rage Charges",
+          "charges": 4,
+          "restType": "long",
+          "type": "resourceCharges"
+        },
+        {
+          "name": "Brutal Critical",
+          "damage": {
+            "additionalDamage": "damageDie"
+          },
+          "conditionals": ["criticalHit"]
+        }
+      ]
+    },
+    "10": {
+      "proficiencyBonus": 4,
+      "hps": 68,
+      "abilities": [
+        {
+          "name": "Rage Charges",
+          "charges": 4,
+          "restType": "long",
+          "type": "resourceCharges"
+        }
+      ]
+    },
+    "11": {
+      "proficiencyBonus": 4,
+      "hps": 75,
+      "abilities": [
+        {
+          "name": "Rage Charges",
+          "charges": 4,
+          "restType": "long",
+          "type": "resourceCharges"
+        },
+        {
+          "name": "Relentless Rage",
+          "type": "deathProtection",
+          "restType": "short"
+        }
+      ]
+    },
+    "12": {
+      "proficiencyBonus": 4,
+      "hps": 82,
+      "chooseFeat": true,
+      "abilities": [
+        {
+          "name": "Rage Charges",
+          "charges": 5,
+          "restType": "long",
+          "type": "resourceCharges"
+        }
+      ]
+    }
+  }
+}

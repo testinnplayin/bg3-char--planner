@@ -10,5 +10,55 @@
   "class": "wizard",
   "subclass": "evocation",
   "level": 1,
-  "background": "sage"
+  "background": "sage",
+  "other": {
+    "passives": [
+      {
+        "name": "Arcane Hunger",
+        "type": "debuff",
+        "savingThrows": ["constitution"]
+      },
+      {
+        "name": "Greater Arcane Hunger",
+        "type": "debuff",
+        "savingThrows": ["all"],
+        "toHit": "disadvantage"
+      },
+      {
+        "name": "Severe Arcane Hunger",
+        "type": "debuff",
+        "savingThrows": ["all"],
+        "toHit": "disadvantage",
+        "movementInMeters": 3.5
+      },
+      {
+        "name": "Orb Explosion",
+        "conditionals": ["hungry", "dead"]
+      },
+      {
+        "name": "Consumed Shadow Weave",
+        "type": "spells",
+        "spells": {
+          "slots": {
+            "2": 1
+          }
+        },
+        "conditionals": ["consumeShadowWeave"]
+      },
+      {
+        "name": "Mystra's Blessing",
+        "type": "damageImmunity",
+        "conditionals": ["disperseShadowWeave", "once"],
+        "immunityTypes": ["acid", "cold", "fire", "force", "thunder"],
+        "duration": "longRest"
+      },
+      {
+        "name": "Anointed in Splendour",
+        "type": "buff",
+        "savingThrows": ["all"],
+        "bonus": 2,
+        "conditionals": ["gale"]
+      }
+    ]
+  }
 }

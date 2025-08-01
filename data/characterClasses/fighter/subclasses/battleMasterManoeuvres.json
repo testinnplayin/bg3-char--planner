@@ -218,7 +218,7 @@
       "timesPerTurn": 1
     }
   ],
-  "passives": [
+  "reactions": [
     {
       "name": "Riposte",
       "type": "meleeReaction",

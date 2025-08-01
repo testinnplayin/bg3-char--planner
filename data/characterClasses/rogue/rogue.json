@@ -165,7 +165,7 @@
           "type": "rangedAttack"
         }
       ],
-      "passives": [
+      "reactions": [
         {
           "name": "Uncanny Dodge",
           "reaction": {

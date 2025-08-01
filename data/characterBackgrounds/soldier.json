@@ -1,0 +1,6 @@
+{
+  "name": "Soldier",
+  "type": "background",
+  "label": "soldier",
+  "bonusProficiencies": ["athletics", "intimidation"]
+}

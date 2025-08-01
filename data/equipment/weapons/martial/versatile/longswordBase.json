@@ -1,0 +1,48 @@
+{
+  "name": "Longsword",
+  "type": "versatile",
+  "categories": ["martial", "melee"],
+  "label": "longsword",
+  "damage": {
+    "damageType": "S",
+    "dieType": 8,
+    "numberOfDice": 1,
+    "mods": ["strength"]
+  },
+  "toHit": {
+    "melee": ["strength"]
+  },
+  "properties": ["versatile"],
+  "actions": [
+    {
+      "name": "Lacerate",
+      "type": "weaponAttack",
+      "restType": "short",
+      "statusEffect": "Bleed",
+      "savingThrows": ["constitution"],
+      "conditionals": ["once", "oneEnemy"],
+      "damage": {
+        "damageType": "S",
+        "additionalDamage": 2
+      }
+    },
+    {
+      "name": "Rush Attack",
+      "type": "weaponAttack",
+      "restType": "short",
+      "statusEffect": "Off Balance",
+      "savingThrows": ["strength"],
+      "conditionals": ["once", "oneEnemy"]
+    }
+  ],
+  "bonusActions": [
+    {
+      "name": "Pommel Strike",
+      "type": "weaponAttack",
+      "statusEffect": "Dazed",
+      "restType": "short",
+      "savingThrows": ["constitution"],
+      "conditionals": ["once", "oneEnemy"]
+    }
+  ]
+}

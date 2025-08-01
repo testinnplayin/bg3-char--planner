@@ -24,7 +24,8 @@
               "others": 3
             }
           },
-          "type": "spells"
+          "type": "spells",
+          "restType": "long"
         }
       ]
     },
