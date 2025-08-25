@@ -1,0 +1,35 @@
+{
+  "name": "bg3-char--planner",
+  "version": "1.0.0",
+  "description": "small bg3 character planner",
+  "keywords": [
+    "bg3",
+    "TS"
+  ],
+  "homepage": "https://github.com/testinnplayin/bg3-char--planner#readme",
+  "bugs": {
+    "url": "https://github.com/testinnplayin/bg3-char--planner/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testinnplayin/bg3-char--planner.git"
+  },
+  "license": "ISC",
+  "author": "R Wood",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --import tsx --test --test-only",
+    "lint": "npx eslint"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/express": "^5.0.3",
+    "eslint": "^9.33.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.40.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
