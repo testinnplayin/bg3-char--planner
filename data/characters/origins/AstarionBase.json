@@ -3,15 +3,15 @@
   "label": "astarion",
   "description": "Vampire Spawn",
   "raceInformation": {
-    "race": "Elf",
-    "subRace": "High Elf",
+    "race": "ELF",
+    "subRace": "HIGH_ELF",
     "labels": ["elf", "highElf"]
   },
-  "category": "Origin",
-  "class": "rogue",
-  "subclass": "arcaneTrickster",
+  "category": "ORIGIN",
+  "class": "ROGUE",
+  "subclass": "ARCANE_TRICKSTER",
   "level": 1,
-  "background": "charlatan",
+  "background": "CHARLATAN",
   "defaultSkillProficiencies": ["acrobatics", "deception", "perception", "persuasion", "sleightOfHand", "stealth"],
   "defaultExpertises": ["sleightOfHand", "stealth"],
   "other": {

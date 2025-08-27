@@ -3,14 +3,14 @@
   "label": "gale",
   "description": "Wizard Prodigy",
   "raceInformation": {
-    "race": "Human",
+    "race": "HUMAN",
     "label": "human"
   },
-  "category": "Origin",
-  "class": "wizard",
-  "subclass": "evocation",
+  "category": "ORIGIN",
+  "class": "WIZARD",
+  "subclass": "INVOKER",
   "level": 1,
-  "background": "sage",
+  "background": "SAGE",
   "other": {
     "passives": [
       {

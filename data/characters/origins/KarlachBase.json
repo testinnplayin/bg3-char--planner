@@ -3,15 +3,15 @@
   "label": "karlach",
   "description": "Fury of Avernus",
   "raceInformation": {
-    "race": "Tiefling",
+    "race": "TIEFLING",
     "label": "zarielTiefling",
-    "subrace": "Zariel Tiefling"
+    "subrace": "ZARIEL"
   },
-  "category": "Origin",
-  "class": "barbarian",
-  "subclass": "berserker",
+  "category": "ORIGIN",
+  "class": "BARBARIAN",
+  "subclass": "BERSERKER",
   "level": 1,
-  "background": "outlander",
+  "background": "OUTLANDER",
   "other": {
     "abilities": [
       {

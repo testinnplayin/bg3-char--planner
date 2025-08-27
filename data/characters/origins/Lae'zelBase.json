@@ -3,13 +3,13 @@
   "label": "laezel",
   "description": "Ferocious Warrior",
   "raceInformation": {
-    "race": "Githyanki",
+    "race": "GITHYANKI",
     "label": "githyanki"
   },
 
-  "category": "Origin",
-  "class": "fighter",
-  "subclass": "battleMaster",
+  "category": "ORIGIN",
+  "class": "FIGHTER",
+  "subclass": "BATTLE_MASTER",
   "level": 1,
-  "background": "soldier"
+  "background": "SOLDIER"
 }
