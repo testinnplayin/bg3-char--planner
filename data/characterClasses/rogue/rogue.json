@@ -44,7 +44,7 @@
     }
   },
   "armorProfiencies": ["clothing", "light"],
-  "baseSkillProficiencies": ["acrobatics", "athletics", "deception", "insight", "intimidation", "investigation", "perception", "performance", "persuasion", "sleight of hand", "stealth"],
+  "baseSkillProficiencies": ["acrobatics", "athletics", "deception", "insight", "intimidation", "investigation", "perception", "performance", "persuasion", "sleightOfHand", "stealth"],
   "startingEquipment": {
     "melee": ["shortsword"],
     "ranged": [],
