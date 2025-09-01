@@ -174,3 +174,8 @@ export enum SkillName {
   STEALTH = 'stealth',
   SURVIVAL = 'survival',
 }
+
+export enum RestType {
+  LONG = 'LONG',
+  SHORT = 'SHORT',
+}
