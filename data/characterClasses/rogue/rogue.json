@@ -168,10 +168,8 @@
       "reactions": [
         {
           "name": "Uncanny Dodge",
-          "reaction": {
-            "soak": {
-              "reduction": "half"
-            }
+          "soak": {
+            "reduction": "half"
           },
           "timesPerTurn": 1,
           "type": "reactionDamageSoak"
@@ -213,12 +211,12 @@
       "passives": [
         {
           "name": "Evasion",
-          "permanent": {
-            "savingThrows": ["dexterity"],
-            "soak": {
-              "ko": "half",
-              "ok": "all"
-            }
+          "soak": {
+            "ko": "half",
+            "ok": "all",
+            "savingThrows": [
+              "dexterity"
+            ]
           },
           "type": "passiveDamageSoak"
         }

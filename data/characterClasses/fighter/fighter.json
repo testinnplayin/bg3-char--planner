@@ -76,7 +76,9 @@
             "numberOfDice": 1,
             "dieType": 10,
             "bonus": 1
-          }
+          },
+          "timesPerTurn": 1,
+          "timesPerCombat": 1
         }
       ],
       "abilities": [
@@ -95,7 +97,7 @@
           "name": "Action Surge",
           "type": "additionalActions",
           "restType": "short",
-          "actions": "double",
+          "numberOfActions": "double",
           "timesPerCombat": 1,
           "durationInTurns": 1
         }
