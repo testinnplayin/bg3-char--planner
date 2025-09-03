@@ -179,3 +179,9 @@ export enum RestType {
   LONG = 'LONG',
   SHORT = 'SHORT',
 }
+
+export enum WeaponTypeDamage {
+  B = 'bludgeoning',
+  P = 'piercing',
+  S = 'slashing',
+}
