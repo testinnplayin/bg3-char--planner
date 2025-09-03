@@ -148,7 +148,7 @@
         {
           "name": "Danger Sense",
           "type": "passiveSavingThrowAdvantage",
-          "permanent": {
+          "immunity": {
             "savingThrows": ["dexterity"],
             "conditionals": ["notBlind", "notIncapacitated"]
           }
