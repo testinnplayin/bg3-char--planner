@@ -1,11 +1,10 @@
 {
   "name": "Astarion",
-  "label": "astarion",
+  "label": "ASTARION_BASE",
   "description": "Vampire Spawn",
   "raceInformation": {
     "race": "ELF",
-    "subRace": "HIGH_ELF",
-    "labels": ["elf", "highElf"]
+    "subRace": "HIGH_ELF"
   },
   "category": "ORIGIN",
   "class": "ROGUE",

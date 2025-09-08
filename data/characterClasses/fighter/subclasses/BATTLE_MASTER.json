@@ -1,6 +1,6 @@
 {
   "name": "Battle Master",
-  "label": "battleMaster",
+  "label": "BATTLE_MASTER",
   "type": "martial",
   "progression": {
     "3": {

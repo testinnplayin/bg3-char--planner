@@ -1,7 +1,7 @@
 {
   "name": "Fighter",
   "type": "martial",
-  "label": "fighter",
+  "label": "FIGHTER",
   "attributes": {
     "strength": 15,
     "dexterity": 13,
@@ -60,7 +60,7 @@
       "feet": "leatherBoots"
     }
   },
-  "abilities": [],
+  "abilities": ["Second Wind", "Fighting Style", "Action Surge", "Extra Attack", "Indomitable", "Improved Extra Attack"],
   "progressionType": "martial",
   "subclasses": ["arcaneArcher", "battlemaster", "champion", "eldritchKnight"],
   "progression": {

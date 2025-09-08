@@ -1,7 +1,7 @@
 {
   "name": "Rogue",
   "type": "martial",
-  "label": "rogue",
+  "label": "ROGUE",
   "attributes": {
     "strength": 8,
     "dexterity": 15,
@@ -65,6 +65,7 @@
           "name": "Sneak Attack (Melee)",
           "melee": {
             "damage": {
+              "isDamageRider": true,
               "numberOfDice": 1,
               "dieType": 6
             }
@@ -76,6 +77,7 @@
           "name": "Sneak Attack (Ranged)",
           "ranged": {
             "damage": {
+              "isDamageRider": true,
               "numberOfDice": 1,
               "dieType": 6
             }
@@ -112,6 +114,7 @@
           "name": "Sneak Attack (Melee)",
           "melee": {
             "damage": {
+              "isDamageRider": true,
               "numberOfDice": 2,
               "dieType": 6
             }
@@ -123,6 +126,7 @@
           "name": "Sneak Attack (Ranged)",
           "ranged": {
             "damage": {
+              "isDamageRider": true,
               "numberOfDice": 2,
               "dieType": 6
             }
@@ -146,6 +150,7 @@
           "name": "Sneak Attack (Melee)",
           "melee": {
             "damage": {
+              "isDamageRider": true,
               "numberOfDice": 3,
               "dieType": 6
             }
@@ -157,6 +162,7 @@
           "name": "Sneak Attack (Ranged)",
           "ranged": {
             "damage": {
+              "isDamageRider": true,
               "numberOfDice": 3,
               "dieType": 6
             }
@@ -189,6 +195,7 @@
           "name": "Sneak Attack (Melee)",
           "melee": {
             "damage": {
+              "isDamageRider": true,
               "numberOfDice": 4,
               "dieType": 6
             }
@@ -200,6 +207,7 @@
           "name": "Sneak Attack (Ranged)",
           "ranged": {
             "damage": {
+              "isDamageRider": true,
               "numberOfDice": 4,
               "dieType": 6
             }
@@ -235,6 +243,7 @@
           "name": "Sneak Attack (Melee)",
           "melee": {
             "damage": {
+              "isDamageRider": true,
               "numberOfDice": 5,
               "dieType": 6
             }
@@ -246,6 +255,7 @@
           "name": "Sneak Attack (Ranged)",
           "ranged": {
             "damage": {
+              "isDamageRider": true,
               "numberOfDice": 5,
               "dieType": 6
             }
@@ -268,6 +278,7 @@
           "name": "Sneak Attack (Melee)",
           "melee": {
             "damage": {
+              "isDamageRider": true,
               "numberOfDice": 6,
               "dieType": 6
             }
@@ -279,6 +290,7 @@
           "name": "Sneak Attack (Ranged)",
           "ranged": {
             "damage": {
+              "isDamageRider": true,
               "numberOfDice": 6,
               "dieType": 6
             }

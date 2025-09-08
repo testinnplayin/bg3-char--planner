@@ -1,7 +1,7 @@
 {
   "name": "Wizard",
   "type": "fullSpellcaster",
-  "label": "wizard",
+  "label": "WIZARD",
   "attributes": {
     "strength": 8,
     "dexterity": 13,

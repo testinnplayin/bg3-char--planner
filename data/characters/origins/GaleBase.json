@@ -1,10 +1,9 @@
 {
   "name": "Gale",
-  "label": "gale",
+  "label": "GALE_BASE",
   "description": "Wizard Prodigy",
   "raceInformation": {
-    "race": "HUMAN",
-    "label": "human"
+    "race": "HUMAN"
   },
   "category": "ORIGIN",
   "class": "WIZARD",

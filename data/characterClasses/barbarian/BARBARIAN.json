@@ -1,7 +1,7 @@
 {
   "name": "Barbarian",
   "type": "martial",
-  "label": "barbarian",
+  "label": "BARBARIAN",
   "attributes": {
     "strength": 15,
     "dexterity": 13,
@@ -108,7 +108,8 @@
           "name": "Rage",
           "type": "buff",
           "damage": {
-            "additionalDamage": 2
+            "additionalDamage": 2,
+            "isDamageRider": true
           },
           "resistanceTypes": ["B", "P", "S"],
           "savingThrowBonus": "strength"

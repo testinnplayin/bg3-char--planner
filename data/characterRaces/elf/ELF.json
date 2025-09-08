@@ -1,6 +1,6 @@
 {
   "name": "Elf",
-  "label": "elf",
+  "label": "ELF",
   "size": "M",
   "movementInMeters": 9,
   "subraces": ["highElf", "woodElf"],
