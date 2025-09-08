@@ -2,7 +2,11 @@ import { AttributeName } from '../enums';
 import { Soak } from './Soak';
 
 export interface Passive {
+  acBonus: {
+    mod: AttributeName;
+  };
   additionalMovementInMeters?: number;
+  conditionals: string[];
   immunity?: {
     conditionals?: string[];
     savingThrows?: AttributeName[];
@@ -10,9 +14,9 @@ export interface Passive {
   immunityTypes?: string[];
   initiativeBonus?: number;
   name: string;
-  soak?: Soak;
   skills?: {
     [key: string]: number;
   };
+  soak?: Soak;
   type: string;
 }

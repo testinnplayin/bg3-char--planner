@@ -1,5 +1,6 @@
 export interface Damage {
-  numberOfDice: number;
-  dieType: number;
   additionalDamage?: number;
+  dieType: number;
+  isDamageRider?: boolean;
+  numberOfDice: number;
 }

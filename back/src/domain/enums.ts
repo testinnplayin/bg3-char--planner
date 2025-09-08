@@ -1,7 +1,24 @@
 export enum CharacterCategory {
+  COMPANION = 'COMPANION',
   CUSTOM = 'CUSTOM',
   DURGE = 'DURGE',
   ORIGIN = 'ORIGIN',
+}
+
+export enum OriginCharacterName {
+  ASTARION_BASE = 'ASTARION_BASE',
+  GALE_BASE = 'GALE_BASE',
+  KARLACH_BASE = 'KARLACH_BASE',
+  LAEZEL_BASE = 'LAEZEL_BASE',
+  SHADOW_HEART_BASE = 'SHADOW_HEART_BASE',
+  WYLL_BASE = 'WYLL_BASE',
+}
+
+export enum NonOriginCompanionName {
+  HALSIN_BASE = 'HALSIN_BASE',
+  JAHEIRA_BASE = 'JAHEIRA_BASE',
+  MINSC_AND_BOO_BASE = 'MINSC_AND_BOO_BASE',
+  MINTHARA_BASE = 'MINTHARA_BASE',
 }
 
 export enum CharacterClassName {
@@ -20,7 +37,7 @@ export enum CharacterClassName {
 }
 
 export enum CharacterSubclassName {
-  ABUJURER = 'ABJURER',
+  ABJURER = 'ABJURER',
   ARCANE_ARCHER = 'ARCANE_ARCHER',
   ARCANE_TRICKSTER = 'ARCANE_TRICKSTER',
   ARCHFEY = 'ARCHFEY',

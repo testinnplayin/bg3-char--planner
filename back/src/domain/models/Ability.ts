@@ -7,9 +7,11 @@ export interface Ability {
   damage?: Damage;
   durationInTurns?: number;
   fightingStyles?: string[];
+  label?: string;
   name: string;
   numberOfActions?: string;
   numberOfTypes?: number;
+  skills?: Record<string, number>;
   restType?: RestType;
   timesPerCombat?: number;
   type: string;

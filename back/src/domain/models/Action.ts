@@ -12,8 +12,10 @@ export interface Action {
   name: string;
   ranged?: Damage;
   rangeInMeters?: number;
+  resistanceTypes?: string[];
   restType?: RestType;
   savingThrows?: AttributeName[];
+  savingThrowBonus?: AttributeName[];
   statusEffect?: string;
   timesPerTurn: number;
   timesPerCombat?: number;
