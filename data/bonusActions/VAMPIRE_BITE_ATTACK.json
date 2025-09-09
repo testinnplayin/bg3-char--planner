@@ -1,0 +1,24 @@
+{
+  "name": "Vampire Bite",
+  "label": "VAMPIRE_BITE_ATTACK",
+  "type": "meleeAttack",
+  "melee": {
+    "damage": {
+      "isDamageRider": false,
+      "numberOfDice": 2,
+      "dieType": 4,
+      "damageType": "P",
+      "target": "enemy",
+      "numberOfTargets": 1
+    }
+  },
+  "heal": {
+    "dieType": 4,
+    "numberOfDice": 2,
+    "target": "self",
+    "numberOfTargets": 1
+  },
+  "buffsToSelf": ["HAPPY"],
+  "debuffsToOthers": ["BLOODLESS"],
+  "restType": "shortRest"
+}

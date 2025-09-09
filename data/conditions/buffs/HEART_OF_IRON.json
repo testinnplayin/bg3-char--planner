@@ -1,0 +1,11 @@
+{
+  "name": "Heart of Iron",
+  "type": "buff",
+  "label": "HEART_OF_IRON",
+  "resistanceTypes": [
+    "charm"
+  ],
+  "conditionals": [
+    "heartUpgrade1"
+  ]
+}

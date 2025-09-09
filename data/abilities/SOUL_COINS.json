@@ -1,0 +1,14 @@
+{
+  "name": "Soul Coins",
+  "type": "buff",
+  "label": "SOUL_COINS",
+  "restType": "longRest",
+  "damage": {
+    "damageType": "fire",
+    "dieType": 4,
+    "numberOfDice": 1
+  },
+  "conditionals": [
+    "useSoulCoins"
+  ]
+}

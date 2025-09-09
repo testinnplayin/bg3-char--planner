@@ -1,0 +1,8 @@
+{
+  "name": "Misty Escape",
+  "label": "MISTY_ESCAPE",
+  "type": "spellAbility",
+  "isConcentration": true,
+  "spellEffect": "GASEOUS_FORM",
+  "restType": "shortRest"
+}

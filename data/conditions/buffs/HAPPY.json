@@ -1,0 +1,14 @@
+{
+  "name": "Happy",
+  "label": "HAPPY",
+  "type": "buff",
+  "toHit": 1,
+  "skillChecks": {
+    "all": 1
+  },
+  "savingThrows": {
+    "all": 1
+  },
+  "duration": "longRest",
+  "target": "self"
+}

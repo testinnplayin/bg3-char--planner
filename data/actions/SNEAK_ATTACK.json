@@ -1,0 +1,25 @@
+{
+  "name": "Sneak Attack",
+  "label": "SNEAK_ATTACK",
+  "melee": {
+    "damage": {
+      "isDamageRider": true,
+      "numberOfDice": 1,
+      "dieType": 6
+    }
+  },
+  "ranged": {
+    "damage": {
+      "isDamageRider": true,
+      "numberOfDice": 1,
+      "dieType": 6
+    }
+  },
+  "growth": {
+    "levelGrowth": ["1", "3", "5", "7", "9", "11"],
+    "numberOfDicePerGrowthInstance": 1
+  },
+  "timesPerTurn": 1,
+  "conditionals": ["ifNotReaction"],
+  "type": "meleeAttack"
+}

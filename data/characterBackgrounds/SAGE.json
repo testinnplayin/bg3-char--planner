@@ -1,0 +1,6 @@
+{
+  "name": "Sage",
+  "type": "background",
+  "label": "SAGE",
+  "bonusProficiencies": ["arcana", "history"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Bloodless",
+  "label": "BLOODLESS",
+  "toHit": -1,
+  "savingThrows": {
+    "all": -1
+  },
+  "skillChecks": {
+    "all": -1
+  },
+  "numberOfTargets": 1,
+  "duration": "longRest",
+  "type": "debuff"
+}

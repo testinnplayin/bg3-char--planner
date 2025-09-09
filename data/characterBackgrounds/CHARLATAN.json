@@ -1,0 +1,6 @@
+{
+  "name": "Charlatan",
+  "type": "background",
+  "label": "CHARLATAN",
+  "bonusProficiencies": ["deception", "sleightOfHand"]
+}

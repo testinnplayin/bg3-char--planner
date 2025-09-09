@@ -1,0 +1,6 @@
+{
+  "name": "Outlander",
+  "type": "background",
+  "label": "OUTLANDER",
+  "bonusProficiencies": ["athletics", "survival"]
+}

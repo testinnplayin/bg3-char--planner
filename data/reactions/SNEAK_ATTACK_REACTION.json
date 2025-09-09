@@ -1,0 +1,7 @@
+{
+  "name": "Sneak Attack",
+  "label": "SNEAK_ATTACK_REACTION",
+  "link": "SNEAK_ATTACK",
+  "timesPerTurn": 1,
+  "type": "meleeAttack"
+}

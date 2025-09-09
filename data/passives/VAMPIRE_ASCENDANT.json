@@ -1,0 +1,25 @@
+{
+  "name": "Vampire Ascendant",
+  "label": "VAMPIRE_ASCENDANT",
+  "type": "attackDamageBonus",
+  "melee": {
+    "damage": {
+      "isDamageRider": true,
+      "numberOfDice": 1,
+      "dieType": 10,
+      "damageType": "necromantic",
+      "target": "enemy",
+      "numberOfTargets": 1
+    }
+  },
+  "unarmed": {
+    "damage": {
+      "isDamageRider": true,
+      "numberOfDice": 1,
+      "dieType": 10,
+      "damageType": "necromantic",
+      "target": "enemy",
+      "numberOfTargets": 1
+    }
+  }
+}

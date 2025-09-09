@@ -1,0 +1,8 @@
+  {
+    "name": "Heart Ablaze",
+    "type": "buff",
+    "label": "HEART_ABLAZE",
+    "immunityTypes": [
+      "charm"
+    ]
+  }
