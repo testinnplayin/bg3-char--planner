@@ -112,7 +112,8 @@
             "isDamageRider": true
           },
           "resistanceTypes": ["B", "P", "S"],
-          "savingThrowBonus": "strength"
+          "savingThrows": ["strength"],
+          "savingThrowBonus": "advantage"
         }
       ],
       "passives": [

@@ -193,12 +193,26 @@ export enum SkillName {
 }
 
 export enum RestType {
-  LONG = 'LONG',
-  SHORT = 'SHORT',
+  LONG_REST = 'longRest',
+  SHORT_REST = 'shortRest',
 }
 
 export enum WeaponTypeDamage {
   B = 'bludgeoning',
   P = 'piercing',
   S = 'slashing',
+}
+
+export enum TargetType {
+  ALLY = 'ally',
+  ANYONE = 'anyone',
+  ENEMY = 'enemy',
+  SELF = 'self',
+}
+
+export enum DurationType {
+  LONG_REST = 'longRest',
+  ROUND_BASED = 'roundBased',
+  SHORT_REST = 'shortRest',
+  TURN_BASED = 'turnBased',
 }

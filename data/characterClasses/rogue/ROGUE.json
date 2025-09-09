@@ -60,32 +60,8 @@
       "expertise": {},
       "proficiencyBonus": 2,
       "hps": 8,
-      "actions": [
-        {
-          "name": "Sneak Attack (Melee)",
-          "melee": {
-            "damage": {
-              "isDamageRider": true,
-              "numberOfDice": 1,
-              "dieType": 6
-            }
-          },
-          "timesPerTurn": 1,
-          "type": "meleeAttack"
-        },
-        {
-          "name": "Sneak Attack (Ranged)",
-          "ranged": {
-            "damage": {
-              "isDamageRider": true,
-              "numberOfDice": 1,
-              "dieType": 6
-            }
-          },
-          "timesPerTurn": 1,
-          "type": "rangedAttack"
-        }
-      ]
+      "actions": ["SNEAK_ATTACK"],
+      "reactions": ["SNEAK_ATTACK_REACTION"]
     },
     "2": {
       "proficiencyBonus": 2,
@@ -109,32 +85,6 @@
     "3": {
       "proficiencyBonus": 2,
       "hps": 5,
-      "actions": [
-        {
-          "name": "Sneak Attack (Melee)",
-          "melee": {
-            "damage": {
-              "isDamageRider": true,
-              "numberOfDice": 2,
-              "dieType": 6
-            }
-          },
-          "timesPerTurn": 1,
-          "type": "meleeAttack"
-        },
-        {
-          "name": "Sneak Attack (Ranged)",
-          "ranged": {
-            "damage": {
-              "isDamageRider": true,
-              "numberOfDice": 2,
-              "dieType": 6
-            }
-          },
-          "timesPerTurn": 1,
-          "type": "rangedAttack"
-        }
-      ],
       "chooseSubclass": true
     },
     "4": {
@@ -145,32 +95,7 @@
     "5": {
       "proficiencyBonus": 3,
       "hps": 5,
-      "actions": [
-        {
-          "name": "Sneak Attack (Melee)",
-          "melee": {
-            "damage": {
-              "isDamageRider": true,
-              "numberOfDice": 3,
-              "dieType": 6
-            }
-          },
-          "timesPerTurn": 1,
-          "type": "meleeAttack"
-        },
-        {
-          "name": "Sneak Attack (Ranged)",
-          "ranged": {
-            "damage": {
-              "isDamageRider": true,
-              "numberOfDice": 3,
-              "dieType": 6
-            }
-          },
-          "timesPerTurn": 1,
-          "type": "rangedAttack"
-        }
-      ],
+      "actions": [],
       "reactions": [
         {
           "name": "Uncanny Dodge",
@@ -190,32 +115,6 @@
     "7": {
       "hps": 5,
       "proficiencyBonus": 3,
-      "actions": [
-        {
-          "name": "Sneak Attack (Melee)",
-          "melee": {
-            "damage": {
-              "isDamageRider": true,
-              "numberOfDice": 4,
-              "dieType": 6
-            }
-          },
-          "timesPerTurn": 1,
-          "type": "meleeAttack"
-        },
-        {
-          "name": "Sneak Attack (Ranged)",
-          "ranged": {
-            "damage": {
-              "isDamageRider": true,
-              "numberOfDice": 4,
-              "dieType": 6
-            }
-          },
-          "timesPerTurn": 1,
-          "type": "rangedAttack"
-        }
-      ],
       "passives": [
         {
           "name": "Evasion",
@@ -237,33 +136,7 @@
     },
     "9": {
       "hps": 5,
-      "proficiencyBonus": 4,
-      "actions": [
-        {
-          "name": "Sneak Attack (Melee)",
-          "melee": {
-            "damage": {
-              "isDamageRider": true,
-              "numberOfDice": 5,
-              "dieType": 6
-            }
-          },
-          "timesPerTurn": 1,
-          "type": "meleeAttack"
-        },
-        {
-          "name": "Sneak Attack (Ranged)",
-          "ranged": {
-            "damage": {
-              "isDamageRider": true,
-              "numberOfDice": 5,
-              "dieType": 6
-            }
-          },
-          "timesPerTurn": 1,
-          "type": "rangedAttack"
-        }
-      ]
+      "proficiencyBonus": 4
     },
     "10": {
       "hps": 5,
@@ -273,32 +146,7 @@
     "11": {
       "hps": 5,
       "proficiencyBonus": 4,
-      "actions": [
-        {
-          "name": "Sneak Attack (Melee)",
-          "melee": {
-            "damage": {
-              "isDamageRider": true,
-              "numberOfDice": 6,
-              "dieType": 6
-            }
-          },
-          "timesPerTurn": 1,
-          "type": "meleeAttack"
-        },
-        {
-          "name": "Sneak Attack (Ranged)",
-          "ranged": {
-            "damage": {
-              "isDamageRider": true,
-              "numberOfDice": 6,
-              "dieType": 6
-            }
-          },
-          "timesPerTurn": 1,
-          "type": "rangedAttack"
-        }
-      ],
+      "actions": [],
       "passives": [
         {
           "name": "Reliable Talent",

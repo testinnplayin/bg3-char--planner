@@ -14,28 +14,7 @@
   "defaultSkillProficiencies": ["acrobatics", "deception", "perception", "persuasion", "sleightOfHand", "stealth"],
   "defaultExpertises": ["sleightOfHand", "stealth"],
   "other": {
-    "vampireBite": {
-      "damage": "2d4",
-      "damageType": "P",
-      "heal": "2d4",
-      "bonuses": {
-        "toHit": 1,
-        "savingThrows": {
-          "all": 1
-        },
-        "abilityChecks": {
-          "all": 1
-        },
-        "debuffsToOthers": {
-          "toHit": -1,
-          "savingThrows": {
-            "all": -1
-          },
-          "abilityChecks": {
-            "all": -1
-          }
-        }
-      }
-    }
+    "bonusActions": ["VAMPIRE_BITE_PASSIVE", "VAMPIRE_BITE_ATTACK"],
+    "unlockable": ["ASCENDANT_BITE", "MISTY_ESCAPE", "VAMPIRE_ASCENDANT"]
   }
 }

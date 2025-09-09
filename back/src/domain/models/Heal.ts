@@ -1,5 +1,5 @@
 export interface Heal {
-  bonus?; number;
+  bonus?: number;
   dieType: number;
   numberOfDice: number;
 }

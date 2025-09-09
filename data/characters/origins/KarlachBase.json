@@ -13,31 +13,7 @@
   "level": 1,
   "background": "OUTLANDER",
   "other": {
-    "abilities": [
-      {
-        "name": "Soul Coins",
-        "type": "buff",
-        "restType": "longRest",
-        "damage": {
-          "damageType": "fire",
-          "dieType": 4,
-          "numberOfDice": 1
-        },
-        "conditionals": ["useSoulCoins"]
-      }
-    ],
-    "passives": [
-      {
-        "name": "Heart of Iron",
-        "type": "buff",
-        "resistanceTypes": ["charm"],
-        "conditionals": ["heartUpgrade1"]
-      },
-      {
-        "name": "Heart Ablaze",
-        "type": "buff",
-        "immunityTypes": ["charm"]
-      }
-    ]
+    "abilities": ["SOUL_COINS"],
+    "passives": ["HEART_OF_IRON", "HEART_ABLAZE"]
   }
 }

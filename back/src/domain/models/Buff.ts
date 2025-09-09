@@ -8,6 +8,7 @@ export interface Buff {
   conditionals?: string[];
   damage?: Damage;
   name: string;
+  label: string;
   resistanceTypes?: WeaponTypeDamage;
   type: string;
 }
