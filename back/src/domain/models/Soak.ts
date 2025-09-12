@@ -7,7 +7,5 @@ export interface Soak {
   ko: string;
   ok: string;
   restType?: RestType;
-  timesPerTurn: number;
-  timesPerCombat?: number;
 }
 

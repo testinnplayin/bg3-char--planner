@@ -5,8 +5,10 @@ import { Heal } from './Heal';
 
 export interface Action {
   additionalDamange?: boolean;
+  conditionals: string[];
   debuffToOthers: Debuff;
   duration?: DurationType;
+  durationInTurns?: number;
   heal?: Heal;
   increasedMovement?: string;
   label: string;
