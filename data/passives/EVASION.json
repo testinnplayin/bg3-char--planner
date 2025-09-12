@@ -1,0 +1,10 @@
+{
+  "name": "Evasion",
+  "label": "EVASION",
+  "soak": {
+    "ko": "half",
+    "ok": "all",
+    "savingThrows": ["dexterity"]
+  },
+  "type": "damageSoak"
+}

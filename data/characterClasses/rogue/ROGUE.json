@@ -53,7 +53,6 @@
       "feet": "leather boots"
     }
   },
-  "abilities": ["Sneak Attack"],
   "subclasses": ["arcaneTrickster", "assassin", "swashbuckler", "thief"],
   "progression": {
     "1": {
@@ -66,20 +65,7 @@
     "2": {
       "proficiencyBonus": 2,
       "hps": 5,
-      "bonusActions": [
-        {
-          "increaseMovement": "double",
-          "name": "Cunning Action: Dash",
-          "type": "movement"
-        },
-        {
-          "name": "Cunning Action: Disengange",
-          "type": "movement"
-        },
-        {
-          "name": "Cunning Action: Hide",
-          "type": "advantage"
-        }
+      "bonusActions": ["CUNNING_ACTION_DASH", "CUNNING_ACTION_DISENGAGE", "CUNNING_ACTION_HIDE"
       ]
     },
     "3": {
@@ -96,16 +82,7 @@
       "proficiencyBonus": 3,
       "hps": 5,
       "actions": [],
-      "reactions": [
-        {
-          "name": "Uncanny Dodge",
-          "soak": {
-            "reduction": "half"
-          },
-          "timesPerTurn": 1,
-          "type": "reactionDamageSoak"
-        }
-      ]
+      "reactions": ["UNCANNY_DODGE"]
     },
     "6": {
       "hps": 5,
@@ -115,19 +92,7 @@
     "7": {
       "hps": 5,
       "proficiencyBonus": 3,
-      "passives": [
-        {
-          "name": "Evasion",
-          "soak": {
-            "ko": "half",
-            "ok": "all",
-            "savingThrows": [
-              "dexterity"
-            ]
-          },
-          "type": "passiveDamageSoak"
-        }
-      ]
+      "passives": ["EVASION"]
     },
     "8": {
       "hps": 5,
@@ -147,15 +112,7 @@
       "hps": 5,
       "proficiencyBonus": 4,
       "actions": [],
-      "passives": [
-        {
-          "name": "Reliable Talent",
-          "skills": {
-            "all": 10
-          },
-          "type": "skillBoost"
-        }
-      ]
+      "passives": ["RELIABLE_TALENT"]
     },
     "12": {
       "hps": 5,

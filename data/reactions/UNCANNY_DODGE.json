@@ -1,0 +1,9 @@
+{
+  "name": "Uncanny Dodge",
+  "label": "UNCANNY_DODGE",
+  "soak": {
+    "reduction": "half"
+  },
+  "timesPerTurn": 1,
+  "type": "damageSoak"
+}

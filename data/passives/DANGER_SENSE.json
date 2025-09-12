@@ -1,0 +1,9 @@
+{
+  "name": "Danger Sense",
+  "label": "DANGER_SENSE",
+  "immunity": {
+    "savingThrows": ["dexterity"],
+    "conditionals": ["notBlind", "notIncapacitated"]
+  },
+  "type": "savingThrowAdvantage"
+}

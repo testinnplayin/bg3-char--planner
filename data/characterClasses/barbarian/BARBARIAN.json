@@ -88,110 +88,35 @@
       "feet": "leatherBoots"
     }
   },
-  "abilities": ["Rage", "Rage Charges"],
   "progressionType": "martial",
   "subclasses": ["berserker", "giant", "wildMagic", "wildHeart"],
   "progression": {
     "1": {
       "proficiencyBonus": 2,
       "hps": 12,
-      "abilities": [
-        {
-          "name": "Rage Charges",
-          "charges": 2,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ],
-      "bonusActions": [
-        {
-          "name": "Rage",
-          "type": "buff",
-          "damage": {
-            "additionalDamage": 2,
-            "isDamageRider": true
-          },
-          "resistanceTypes": ["B", "P", "S"],
-          "savingThrows": ["strength"],
-          "savingThrowBonus": "advantage"
-        }
-      ],
-      "passives": [
-        {
-          "name": "Unarmoured Defence",
-          "type": "acBuff",
-          "acBonus": {
-            "mod": "constitution"
-          },
-          "conditionals": ["unarmoured"]
-        }
-      ]
+      "abilities": ["RAGE", "RAGE_CHARGES"],
+      "bonusActions": ["RAGE"],
+      "passives": ["UNARMORED_DEFENSE"]
     },
     "2": {
       "proficiencyBonus": 2,
       "hps": 19,
-      "abilities": [
-        {
-          "name": "Rage Charges",
-          "charges": 2,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ],
-      "actions": [
-        {
-          "name": "Reckless Attack",
-          "type": "toHitAdvantage",
-          "toHit": "advantage",
-          "toBeHit": "disadvantage"
-        }
-      ],
-      "passives": [
-        {
-          "name": "Danger Sense",
-          "type": "passiveSavingThrowAdvantage",
-          "immunity": {
-            "savingThrows": ["dexterity"],
-            "conditionals": ["notBlind", "notIncapacitated"]
-          }
-        }
-      ]
+      "actions": ["RECKLESS_ATTACK"],
+      "passives": ["DANGER_SENSE"]
     },
     "3": {
       "proficiencyBonus": 2,
       "hps": 26,
-      "abilities": [
-        {
-          "name": "Rage Charges",
-          "charges": 3,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ],
       "chooseSubclass": true
     },
     "4": {
       "proficiencyBonus": 2,
       "hps": 33,
-      "abilities": [
-        {
-          "name": "Rage Charges",
-          "charges": 3,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ],
       "chooseFeat": true
     },
     "5": {
       "proficiencyBonus": 3,
       "abilities": [
-        {
-          "name": "Rage Charges",
-          "charges": 3,
-          "restType": "long",
-          "type": "resourceCharges"
-        },
         {
           "name": "Extra Attack",
           "type": "additionalAttacks",
@@ -224,15 +149,7 @@
     },
     "6": {
       "proficiencyBonus": 3,
-      "hps": 40,
-      "abilities": [
-        {
-          "name": "Rage Charges",
-          "charges": 4,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ]
+      "hps": 40
     },
     "7": {
       "proficiencyBonus": 3,
@@ -256,26 +173,12 @@
     "8": {
       "proficiencyBonus": 3,
       "hps": 54,
-      "abilities": [
-        {
-          "name": "Rage Charges",
-          "charges": 4,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ],
       "chooseFeat": true
     },
     "9": {
       "proficiencyBonus": 4,
       "hps": 61,
       "abilities": [
-        {
-          "name": "Rage Charges",
-          "charges": 4,
-          "restType": "long",
-          "type": "resourceCharges"
-        },
         {
           "name": "Brutal Critical",
           "damage": {
@@ -287,26 +190,12 @@
     },
     "10": {
       "proficiencyBonus": 4,
-      "hps": 68,
-      "abilities": [
-        {
-          "name": "Rage Charges",
-          "charges": 4,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ]
+      "hps": 68
     },
     "11": {
       "proficiencyBonus": 4,
       "hps": 75,
       "abilities": [
-        {
-          "name": "Rage Charges",
-          "charges": 4,
-          "restType": "long",
-          "type": "resourceCharges"
-        },
         {
           "name": "Relentless Rage",
           "type": "deathProtection",
@@ -317,15 +206,7 @@
     "12": {
       "proficiencyBonus": 4,
       "hps": 82,
-      "chooseFeat": true,
-      "abilities": [
-        {
-          "name": "Rage Charges",
-          "charges": 5,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ]
+      "chooseFeat": true
     }
   }
 }

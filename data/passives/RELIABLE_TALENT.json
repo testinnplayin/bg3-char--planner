@@ -1,0 +1,8 @@
+{
+  "name": "Reliable Talent",
+  "label": "RELIABLE_TALENT",
+  "skills": {
+    "all": 10
+  },
+  "type": "skillBoost"
+}

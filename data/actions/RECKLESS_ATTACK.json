@@ -1,0 +1,9 @@
+{
+  "name": "Reckless Attack",
+  "label": "RECKLESS_ATTACK",
+  "toHit": "advantage",
+  "toBeHit": "disadvantage",
+  "targets": ["self", "enemy"],
+  "numberOfTargets": 1,
+  "type": "buffAndDebuff"
+}

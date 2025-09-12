@@ -1,0 +1,6 @@
+{
+  "name": "Cunning Action: Dash",
+  "type": "movementBuff",
+  "label": "CUNNING_ACTION_DASH",
+  "increasedMovement": "double"
+}

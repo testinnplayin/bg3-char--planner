@@ -1,0 +1,9 @@
+{
+  "name": "Unarmored Defense",
+  "label": "UNARMORED_DEFENSE",
+  "acBonus": {
+    "mod": "constitution"
+  },
+  "conditionals": ["unarmored"],
+  "type": "buff"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Rage",
+  "label": "RAGE",
+  "damage": {
+    "additionalDamage": 2,
+    "isDamageRider": true
+  },
+  "resistanceTypes": ["B", "P", "S"],
+  "savingThrows": ["strength"],
+  "savingThrowBonus": "advantage",
+  "durationInTurns": 10,
+  "conditionals": ["removeConcentration", "mustAttack"],
+  "type": "buff"
+}
