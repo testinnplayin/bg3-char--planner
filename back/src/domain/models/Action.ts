@@ -5,6 +5,7 @@ import { Heal } from './Heal';
 
 export interface Action {
   additionalDamange?: boolean;
+  addToStackPerUse?: number;
   conditionals: string[];
   debuffToOthers: Debuff;
   duration?: DurationType;
@@ -18,7 +19,9 @@ export interface Action {
   numberOfTargets?: number;
   ranged?: Damage;
   rangeInMeters?: number;
+  removeFromStack?: number;
   resistanceTypes?: string[];
+  resourceCost?: number;
   restType?: RestType;
   savingThrows?: AttributeName[];
   savingThrowBonus?: string;

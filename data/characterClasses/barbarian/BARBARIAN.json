@@ -116,36 +116,8 @@
     },
     "5": {
       "proficiencyBonus": 3,
-      "abilities": [
-        {
-          "name": "Extra Attack",
-          "type": "additionalAttacks",
-          "conditionals": [
-            "meleeAttack",
-            "rangedAttack"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "name": "Extra Attack (Melee)",
-          "type": "meleeAttack",
-          "timesPerTurn": 1
-        },
-        {
-          "name": "Extra Attack (Ranged)",
-          "type": "rangedAttack",
-          "timesPerTurn": 1
-        }
-      ],
-      "passives": [
-        {
-          "name": "Fast Movement",
-          "type": "movementIncrease",
-          "additionalMovementInMeters": 3,
-          "conditionals": ["unarmoured"]
-        }
-      ]
+      "actions": ["EXTRA_ATTACK"],
+      "passives": ["FAST_MOVEMENT"]
     },
     "6": {
       "proficiencyBonus": 3,
@@ -154,21 +126,7 @@
     "7": {
       "proficiencyBonus": 3,
       "hps": 47,
-      "abilities": [
-        {
-          "name": "Rage Charges",
-          "charges": 4,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ],
-      "passives": [
-        {
-          "name": "Feral Instinct",
-          "initiativeBonus": 3,
-          "immunityTypes": ["surprised"]
-        }
-      ]
+      "passives": ["FERAL_INSTINCT"]
     },
     "8": {
       "proficiencyBonus": 3,
@@ -178,15 +136,7 @@
     "9": {
       "proficiencyBonus": 4,
       "hps": 61,
-      "abilities": [
-        {
-          "name": "Brutal Critical",
-          "damage": {
-            "additionalDamage": "damageDie"
-          },
-          "conditionals": ["criticalHit"]
-        }
-      ]
+      "passives": ["BRUTAL_CRITICAL"]
     },
     "10": {
       "proficiencyBonus": 4,
@@ -195,13 +145,7 @@
     "11": {
       "proficiencyBonus": 4,
       "hps": 75,
-      "abilities": [
-        {
-          "name": "Relentless Rage",
-          "type": "deathProtection",
-          "restType": "short"
-        }
-      ]
+      "passives": ["RELENTLESS_RAGE"]
     },
     "12": {
       "proficiencyBonus": 4,

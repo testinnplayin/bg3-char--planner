@@ -1,7 +1,7 @@
 {
   "name": "Battle Master",
   "label": "BATTLE_MASTER",
-  "type": "martial",
+  "type": "martialSubclass",
   "progression": {
     "3": {
       "abilities": [

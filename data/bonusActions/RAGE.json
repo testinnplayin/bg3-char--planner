@@ -9,6 +9,6 @@
   "savingThrows": ["strength"],
   "savingThrowBonus": "advantage",
   "durationInTurns": 10,
-  "conditionals": ["removeConcentration", "mustAttack"],
+  "conditionals": ["removeConcentration", "mustAttack", "resourceCharges", "inCombat"],
   "type": "buff"
 }

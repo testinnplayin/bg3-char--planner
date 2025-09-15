@@ -10,5 +10,6 @@ export interface Debuff {
     dieType?: number;
   };
   target: TargetType;
-  toHit ?: number;
+  toHit?: number;
+  toBeHit?: number;
 }
