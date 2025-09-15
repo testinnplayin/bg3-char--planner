@@ -1,0 +1,17 @@
+{
+  "name": "Berserker",
+  "label": "BERSERKER",
+  "type": "martialSubclass",
+  "progression": {
+    "3": {
+      "bonusActions": ["FRENZY"],
+      "passives": ["RAGE_BECOMES_FRENZY"]
+    },
+    "6": {
+      "passives": ["MINDLESS_RAGE"]
+    },
+    "10": {
+      "actions": ["INTIMIDATING_PRESENCE"]
+    }
+  }
+}

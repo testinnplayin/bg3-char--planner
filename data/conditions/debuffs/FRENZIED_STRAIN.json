@@ -1,0 +1,8 @@
+{
+  "name": "Frenzied Strain",
+  "label": "FRENZIED_STRAIN",
+  "toHit": -1,
+  "perStack": 1,
+  "conditionals": ["FRENZY"],
+  "type": "debuff"
+}

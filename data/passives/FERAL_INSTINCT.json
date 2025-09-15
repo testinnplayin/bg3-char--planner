@@ -1,0 +1,7 @@
+{
+  "name": "Feral Instinct",
+  "label": "FERAL_INSTINCT",
+  "initiativeBonus": 3,
+  "immunityTypes": ["surprised"],
+  "type": "buff"
+}

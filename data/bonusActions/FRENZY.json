@@ -1,0 +1,23 @@
+{
+  "name": "Frenzy",
+  "label": "FRENZY",
+  "damage": {
+    "additionalDamage": 2,
+    "isDamageRider": true
+  },
+  "resistanceTypes": [
+    "B",
+    "P",
+    "S"
+  ],
+  "savingThrows": [
+    "strength"
+  ],
+  "savingThrowBonus": "advantage",
+  "durationInTurns": 10,
+  "bonusActions": ["FRENZIED_STRIKE", "IMPROVISED_MELEE_WEAPON", "ENRAGED_THROW"],
+  "resourceCost": 1,
+  "conditionals": ["removeConcentration",
+    "mustAttack", "resourceCharges", "inCombat"],
+  "type": "buff"
+}

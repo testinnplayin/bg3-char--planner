@@ -1,0 +1,9 @@
+{
+  "name": "Improvised Melee Weapon",
+  "damage": {
+    "damageTypes": ["B"]
+  },
+  "debuffs": ["PRONE"],
+  "label": "IMPROVISED_MELEE_WEAPON",
+  "type": "classAction"
+}

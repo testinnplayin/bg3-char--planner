@@ -1,0 +1,7 @@
+{
+  "name": "Fast Movement",
+  "label": "FAST_MOVEMENT",
+  "additionalMovementInMeters": 3,
+  "conditionals": ["unarmored"],
+  "type": "movementIncrease"
+}

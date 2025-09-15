@@ -1,0 +1,6 @@
+{
+  "name": "Rage Becomes Frenzy",
+  "label": "RAGE_BECOMES_FRENZY",
+  "bonusActions": ["FRENZY"],
+  "type": "buff"
+}

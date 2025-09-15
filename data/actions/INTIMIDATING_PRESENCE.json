@@ -1,0 +1,6 @@
+{
+  "name": "Intimidating Presence",
+  "label": "INTIMIDATING_PRESENCE",
+  "debuffsToOthers": ["FEARFUL", "MAINTAIN_INTIMIDATING_PRESENCE"],
+  "type": "classAction"
+}

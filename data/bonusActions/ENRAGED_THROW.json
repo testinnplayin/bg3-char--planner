@@ -1,0 +1,7 @@
+{
+  "name": "Enraged Throw",
+  "label": "ENRAGED_THROW",
+  "debuffs": ["PRONE"],
+  "conditionals": ["FRENZY"],
+  "type": "weaponAttack"
+}

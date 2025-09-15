@@ -1,0 +1,6 @@
+{
+  "name": "Mindless Rage",
+  "label": "MINDLESS_RAGE",
+  "immunities": ["charm", "frightened", "calmEmotions"],
+  "type": "buff"
+}

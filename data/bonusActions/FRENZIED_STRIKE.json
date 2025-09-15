@@ -1,0 +1,8 @@
+{
+  "name": "Frenzied Strike",
+  "debuffsToSelf": ["FRENZIED_STRAIN"],
+  "addToStackPerUse": 1,
+  "timesPerTurn": 1,
+  "label": "FRENZIED_STRIKE",
+  "type": "weaponAttack"
+}

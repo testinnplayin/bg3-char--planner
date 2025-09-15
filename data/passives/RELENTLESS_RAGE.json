@@ -1,0 +1,10 @@
+{
+  "name": "Relentless Rage",
+  "label": "RELENTLESS_RAGE",
+  "heal": {
+    "hp": 1
+  },
+  "conditionals": ["downed"],
+  "restType": "shortRest",
+  "type": "deathProtection"
+}

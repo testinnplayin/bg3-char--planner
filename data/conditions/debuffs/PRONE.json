@@ -1,0 +1,9 @@
+{
+  "name": "Prone",
+  "label": "PRONE",
+  "movementDebuff": "half",
+  "toBeHit": "advantage",
+  "savingThrows": ["strength", "dexterity"],
+  "savingThrowDebuff": "disadvantage",
+  "type": "debuff"
+}

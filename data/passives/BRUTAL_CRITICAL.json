@@ -1,0 +1,9 @@
+{
+  "name": "Brutal Critical",
+  "label": "BRUTAL_CRITICAL",
+  "damage": {
+    "additionalDamage": "damageDie"
+  },
+  "conditionals": ["criticalHit"],
+  "type": "weaponAttackBuff"
+}
