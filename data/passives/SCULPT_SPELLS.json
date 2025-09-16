@@ -1,0 +1,10 @@
+{
+  "name": "Sculpt Spells",
+  "label": "SCULPT_SPELLS",
+  "savingThrows": {
+    "all": "noDamage"
+  },
+  "targets": ["ally"],
+  "numberOfTargets": "all",
+  "type": "damageSoak"
+}

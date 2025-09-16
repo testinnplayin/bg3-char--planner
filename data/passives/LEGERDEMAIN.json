@@ -1,0 +1,9 @@
+{
+  "name": "Legerdemain",
+  "link": "MAGE_HAND",
+  "duration": "longRest",
+  "timesPerTurn": 1,
+  "timesPerRest": "inf",
+  "label": "LEGERDEMAIN",
+  "type": "summons"
+}

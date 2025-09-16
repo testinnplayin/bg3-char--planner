@@ -3,5 +3,5 @@
   "label": "SNEAK_ATTACK_REACTION",
   "link": "SNEAK_ATTACK",
   "timesPerTurn": 1,
-  "type": "meleeAttack"
+  "type": "weaponAttack"
 }

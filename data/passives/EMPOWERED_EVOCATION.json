@@ -1,0 +1,9 @@
+{
+  "name": "Empowered Evocation",
+  "label": "EMPOWERED_EVOCATION",
+  "spellDamageBonus": {
+    "spellCastingAttributes": ["intelligence"],
+    "schoolOfMagic": "evocationSpells"
+  },
+  "type": "spellDamageBonus"
+}

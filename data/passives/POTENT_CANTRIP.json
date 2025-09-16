@@ -1,0 +1,12 @@
+{
+  "name": "Potent Cantrips",
+  "label": "POTENT_CANTRIPS",
+  "savingThrows": {
+    "all": {
+      "ko": "half",
+      "ok": "all"
+    },
+    "spellType": "cantrips"
+  },
+  "type": "damageBoost"
+}

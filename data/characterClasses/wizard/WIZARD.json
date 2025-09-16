@@ -47,160 +47,64 @@
     }
   },
   "abilities": ["Spellcasting Ability", "Arcane Recovery", "Spell Scribing"],
-  "progressionType": "fullCasterProgressionSpellList",
-  "subclasses": ["abjuration", "bladesinging", "conjuration", "divination", "enchantment", "evocation", "illusion", "necromancy", "transmutation"],
+  "progressionType": "FULL_CASTER_PROGRESSION",
+  "subclasses": ["abjuration", "bladesinging", "conjuration", "divination", "enchantment", "EVOCATION", "illusion", "necromancy", "transmutation"],
   "progression": {
     "1": {
       "expertise": {},
       "proficiencyBonus": 2,
       "hps": 6,
       "abilities": [
-        {
-          "name": "Arcane Recovery",
-          "charges": 1,
-          "restType": "long",
-          "type": "resourceCharges"
-        },
-        {
-          "name": "Spell Scribing",
-          "type": "spellVariety"
-        }
+        "ARCANE_RECOVERY",
+        "SPELL_SCRIBING"
       ]
     },
     "2": {
       "proficiencyBonus": 2,
       "hps": 10,
-      "abilities": [
-        {
-          "name": "Arcane Recovery",
-          "charges": 1,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ],
       "chooseSubclass": true
     },
     "3": {
       "proficiencyBonus": 2,
-      "hps": 14,
-      "abilities": [
-        {
-          "name": "Arcane Recovery",
-          "charges": 2,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ]
+      "hps": 14
     },
     "4": {
       "proficiencyBonus": 2,
       "hps": 18,
-      "abilities": [
-        {
-          "name": "Arcane Recovery",
-          "charges": 2,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ],
       "chooseFeat": true
     },
     "5": {
       "proficiencyBonus": 3,
-      "hps": 22,
-      "abilities": [
-        {
-          "name":"Arcane Recovery",
-          "charges": 3,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ]
+      "hps": 22
     },
     "6": {
       "proficiencyBonus": 3,
-      "hps": 26,
-      "abilities": [
-        {
-          "name": "Arcane Recovery",
-          "charges": 3,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ]
+      "hps": 26
     },
     "7": {
       "proficiencyBonus": 3,
-      "hps": 30,
-      "abilities": [
-        {
-          "name": "Arcane Recovery",
-          "charges": 4,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ]
+      "hps": 30
     },
     "8": {
       "proficiencyBonus": 3,
       "hps": 34,
-      "abilities": [
-        {
-          "name": "Arcane Recovery",
-          "charges": 4,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ],
       "chooseFeat": true
     },
     "9": {
       "proficiencyBonus": 4,
-      "hps": 38,
-      "abilities": [
-        {
-          "name": "Arcane Recovery",
-          "charges": 5,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ]
+      "hps": 38
     },
     "10": {
       "proficiencyBonus": 4,
-      "hps": 42,
-      "abilities": [
-        {
-          "name": "Arcane Recovery",
-          "charges": 5,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ]
+      "hps": 42
     },
     "11": {
       "proficiencyBonus": 4,
-      "hps": 46,
-      "abilities": [
-        {
-          "name": "Arcane Recovery",
-          "charges": 6,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ]
+      "hps": 46
     },
     "12": {
       "proficiencyBonus": 4,
       "hps": 50,
-      "abilities": [
-        {
-          "name": "Arcane Recovery",
-          "charges": 5,
-          "restType": "long",
-          "type": "resourceCharges"
-        }
-      ],
       "chooseFeat": true
     }
   }

@@ -4,7 +4,7 @@
   "restType": "longRest",
   "defaultNumberOfCharges": 2,
   "growth": {
-    "levelGrowth": ["1", "3", "6", "12"],
+    "levelGrowth": ["3", "6", "12"],
     "numberOfChargesPerGrowthInstance": 1
   },
   "type": "resourceCharges"

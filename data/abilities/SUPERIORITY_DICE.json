@@ -1,0 +1,15 @@
+{
+  "name": "Superiority Dice",
+  "restType": "shortRest",
+  "defaultNumberOfCharges": 4,
+  "damage": {
+    "dieType": 8,
+    "numberOfDice": 1
+  },
+  "growth": {
+    "levelGrowth": ["7"],
+    "numberOfChargesPerGrowthInstance": 1
+  },
+  "label": "SUPERIORITY_DICE",
+  "type": "resourceCharges"
+}

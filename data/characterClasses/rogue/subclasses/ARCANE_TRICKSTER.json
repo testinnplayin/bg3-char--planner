@@ -2,131 +2,13 @@
   "name": "Arcane Trickster",
   "type": "thirdCaster",
   "label": "ARCANE_TRICKSTER",
+  "progressionType": "THIRD_CASTER_PROGRESSION",
   "progression": {
     "3": {
-      "actions": [
-        {
-          "name": "Mage Hand Legerdemain",
-          "type": "summons",
-          "timesPerTurn": 1,
-          "slots": "inf"
-        }
-      ],
-      "abilities": [
-        {
-          "name": "Spellcasting ability",
-          "spells": {
-            "slots": {
-              "1": 2
-            },
-            "known": {
-              "cantrips": 2,
-              "others": 3
-            }
-          },
-          "type": "spells",
-          "restType": "long"
-        }
-      ]
-    },
-    "4": {
-      "abilities": [
-        {
-          "name": "Spellcasting ability",
-          "spells": {
-            "slots": {
-              "1": 3
-            },
-            "known": {
-              "cantrips": 2,
-              "others": 4
-            }
-          },
-          "type": "spells"
-        }
-      ]
-    },
-    "5": {},
-    "6": {},
-    "7": {
-      "abilities": [
-        {
-          "name": "Spellcasting ability",
-          "spells": {
-            "slots": {
-              "1": 4,
-              "2": 2
-            },
-            "known": {
-              "cantrips": 2,
-              "others": 5
-            }
-          },
-          "type": "spells"
-        }
-      ]
-    },
-    "8": {
-      "abilities": [
-        {
-          "name": "Spellcasting ability",
-          "spells": {
-            "slots": {
-              "1": 4,
-              "2": 2
-            }
-          },
-          "known": {
-            "cantrips": 2,
-            "others": 6
-          },
-          "type": "spells"
-        }
-      ]
+      "actions": ["LEGERDEMAIN"]
     },
     "9": {
-      "passives": [
-        {
-          "name": "Magical Ambush",
-          "spells": {
-            "savingThrows": {
-              "all": "disadvantage"
-            }
-          },
-          "type": "passiveSavingThrowDisadvantage"
-        }
-      ]
-    },
-    "10": {
-      "abilities": {
-        "name": "Spellcasting ability",
-        "spells": {
-          "slots": {
-            "1": 6,
-            "2": 2
-          },
-          "known": {
-            "cantrips": 3,
-            "others": 7
-          }
-        }
-      }
-    },
-    "11": {
-      "abilities": {
-        "name": "Spellcasting ability",
-        "spells": {
-          "slots": {
-            "1": 6,
-            "2": 2
-          },
-          "known": {
-            "cantrips": 3,
-            "others": 8
-          }
-        }
-      }
-    },
-    "12": {}
+      "passives": ["MAGICAL_AMBUSH"]
+    }
   }
 }

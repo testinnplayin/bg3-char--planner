@@ -20,6 +20,6 @@
     "numberOfDicePerGrowthInstance": 1
   },
   "timesPerTurn": 1,
-  "conditionals": ["ifNotReaction"],
+  "conditionals": ["ifNotReaction", "weaponAttack", "finesseWeapon", "advantage"],
   "type": "weaponAttack"
 }

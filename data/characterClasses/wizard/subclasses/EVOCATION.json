@@ -1,0 +1,19 @@
+{
+  "name": "School of Evocation",
+  "type": "fullSpellcaster",
+  "label": "EVOCATION",
+  "progression": {
+    "2": {
+      "abilities": [
+        "EVOCATION_SAVANT"
+      ],
+      "passives": ["SCULPT_SPELLS"]
+    },
+    "6": {
+      "passives": ["POTENT_CANTRIPS"]
+    },
+    "10": {
+      "passives": ["EMPOWERED_EVOCATION"]
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "name": "Full Caster Progression Spell List",
+  "label": "FULL_CASTER_PROGRESSION",
+  "type": "fullSpellcasterProgression",
+  "progression": {
+    "1": {
+      "spells": {
+        "slots": {
+          "1": 2
+        },
+        "known": {
+          "cantrips": 3,
+          "others": 6
+        }
+      }
+    },
+    "2": {
+      "spells": {
+        "slots": {
+          "1": 3
+        },
+        "known": {
+          "cantrips": 3,
+          "others": 3
+        }
+      }
+    },
+    "3": {
+      "spells": {
+        "slots": {
+          "1": 4,
+          "2": 2
+        },
+        "known": {
+          "cantrips": 3,
+          "others": 10
+        }
+      }
+    },
+    "4": {
+      "spells": {
+        "slots": {
+          "1": 4,
+          "2": 3
+        },
+        "known": {
+          "cantrips": 4,
+          "others": 12
+        }
+      }
+    },
+    "5": {
+      "spells": {
+        "slots": {
+          "1": 4,
+          "2": 3,
+          "3": 2
+        },
+        "known": {
+          "cantrips": 4,
+          "others": 14
+        }
+      }
+    },
+    "6": {
+      "spells": {
+        "slots": {
+          "1": 4,
+          "2": 3,
+          "3": 3
+        },
+        "known": {
+          "cantrips": 4,
+          "others": 16
+        }
+      }
+    },
+    "7": {
+      "spells": {
+        "slots": {
+          "1": 4,
+          "2": 3,
+          "3": 3,
+          "4": 1
+        },
+        "known": {
+          "cantrips": 4,
+          "others": 18
+        }
+      }
+    },
+    "8": {
+      "spells": {
+        "slots": {
+          "1": 4,
+          "2": 3,
+          "3": 3,
+          "4": 2
+        },
+        "known": {
+          "cantrips": 4,
+          "others": 20
+        }
+      }
+    },
+    "9": {
+      "spells": {
+        "slots": {
+          "1": 4,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 1
+        },
+        "known": {
+          "cantrips": 4,
+          "others": 22
+        }
+      }
+    },
+    "10": {
+      "spells": {
+        "slots": {
+          "1": 4,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 2
+        },
+        "known": {
+          "cantrips": 5,
+          "others": 24
+        }
+      }
+    },
+    "11": {
+      "spells": {
+        "slots": {
+          "1": 4,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 2,
+          "6": 1
+        },
+        "known": {
+          "cantrips": 5,
+          "others": 26
+        }
+      }
+    },
+    "12": {
+      "spells": {
+        "slots": {
+          "1": 4,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 2,
+          "6": 1
+        },
+        "known": {
+          "cantrips": 5,
+          "others": 28
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Magical Ambush",
+  "label": "MAGICAL_AMBUSH",
+  "savingThrows": {
+    "all": "disadvantage"
+  },
+  "type": "SAVING_THROW_DISADVANTAGE"
+}

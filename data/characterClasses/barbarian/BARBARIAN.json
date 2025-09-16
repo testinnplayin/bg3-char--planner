@@ -89,7 +89,7 @@
     }
   },
   "progressionType": "martial",
-  "subclasses": ["berserker", "giant", "wildMagic", "wildHeart"],
+  "subclasses": ["BERSERKER", "giant", "wildMagic", "wildHeart"],
   "progression": {
     "1": {
       "proficiencyBonus": 2,

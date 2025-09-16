@@ -1,0 +1,11 @@
+{
+  "name": "Arcane Recovery",
+  "label": "ARCANE_RECOVERY",
+  "restType": "longRest",
+  "defaultNumberOfCharges": 1,
+  "growth": {
+    "levelGrowth": ["3", "5", "7", "9", "11"],
+    "numberOfChargesPerGrowthInstance": 1
+  },
+  "type": "resourceCharges"
+}
