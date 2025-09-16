@@ -1,5 +1,6 @@
 import { RestType } from '../enums';
 import { Damage } from './Damage';
+import { Spells } from './Spell';
 
 export interface Ability {
   charges?: number;
@@ -11,6 +12,7 @@ export interface Ability {
   name: string;
   numberOfActions?: string;
   numberOfTypes?: number;
+  spells?: Spells;
   skills?: Record<string, number>;
   restType?: RestType;
   timesPerCombat?: number;

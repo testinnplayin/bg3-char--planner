@@ -1,6 +1,7 @@
 import { AttributeName, DurationType, RestType } from '../enums';
 import { Damage } from './Damage';
 import { Debuff } from './Debuff';
+import { Growth } from './Growth';
 import { Heal } from './Heal';
 
 export interface Action {
@@ -10,6 +11,7 @@ export interface Action {
   debuffToOthers: Debuff;
   duration?: DurationType;
   durationInTurns?: number;
+  growth?: Growth;
   heal?: Heal;
   increasedMovement?: string;
   label: string;
