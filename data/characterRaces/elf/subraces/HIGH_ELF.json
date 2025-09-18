@@ -1,0 +1,9 @@
+{
+  "name": "High Elf",
+  "label": "HIGH_ELF",
+  "type": "subrace",
+  "spellList": "wizardCantrips",
+  "actions": [
+    "ELF_CANTRIP"
+  ]
+}

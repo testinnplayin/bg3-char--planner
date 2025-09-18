@@ -1,0 +1,21 @@
+{
+  "name": "Elven Weapon Training",
+  "label": "ELVEN_WEAPON_TRAINING",
+  "type": "weaponProficiency",
+  "baseWeaponProficiencies": {
+    "martialMelee": {
+      "normal1H": [
+        "longsword"
+      ],
+      "finesse1H": [
+        "shortsword"
+      ]
+    },
+    "martialRanged": {
+      "2H": [
+        "longbow",
+        "shortbow"
+      ]
+    }
+  }
+}

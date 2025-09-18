@@ -1,0 +1,10 @@
+{
+  "name": "Keen Senses",
+  "label": "KEEN_SENSES",
+  "baseSkillProficiencies": {
+    "wisdom": {
+      "perception": 2
+    }
+  },
+  "type": "passiveBuff"
+}

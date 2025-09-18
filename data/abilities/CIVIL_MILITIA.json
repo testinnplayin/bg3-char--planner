@@ -1,0 +1,26 @@
+{
+  "name": " Civil Militia",
+  "label": "CIVIL_MILITIA",
+  "type": "weaponAndArmorProficiency",
+  "baseWeaponProficiencies": {
+    "simpleMelee": {
+      "versatile": [
+        "spears"
+      ]
+    },
+    "martialMelee": {
+      "polearms": [
+        "pikes",
+        "halberds",
+        "glaives"
+      ]
+    },
+    "other": [
+      "shields"
+    ]
+  },
+  "armorProficiencies": [
+    "clothing",
+    "light"
+  ]
+}

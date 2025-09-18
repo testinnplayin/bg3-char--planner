@@ -1,0 +1,11 @@
+{
+  "name": "Elf Cantrips",
+  "label": "ELF_CANTRIP",
+  "type": "raceAbility",
+  "timesPerLongRest": "infinity",
+  "spells": {
+    "known": {
+      "cantrips": 1
+    }
+  }
+}

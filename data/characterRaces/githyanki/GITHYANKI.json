@@ -1,0 +1,14 @@
+{
+  "name": "Githyanki",
+  "label": "GITHYANKI",
+  "type": "race",
+  "size": "M",
+  "movementInMeters": 9,
+  "subraces": [],
+  "abilities": [
+    "ASTRAL_KNOWLEDGE",
+    "MARTIAL_PRODIGY"
+  ],
+  "actions": ["GITHYANKI_PSIONICS"],
+  "bonusActions": ["GITHYANKI_PSIONICS"]
+}

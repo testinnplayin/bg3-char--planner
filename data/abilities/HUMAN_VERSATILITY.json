@@ -1,0 +1,7 @@
+{
+  "name": "Human Versatility",
+  "label": "HUMAN_VERSATILITY",
+  "type": "additionalSkillProficiency",
+  "bonusSkillProciency": 1,
+  "description": "Additional carry weight"
+}

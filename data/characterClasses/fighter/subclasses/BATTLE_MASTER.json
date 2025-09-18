@@ -4,59 +4,16 @@
   "type": "martialSubclass",
   "progression": {
     "3": {
-      "abilities": [
-        {
-          "name": "Manoeuvres",
-          "type": "attackType",
-          "numberOfTypes": 3
-        },
-        {
-          "name": "Superiority Dice",
-          "type": "resourceCharges",
-          "charges": 4,
-          "restType": "short",
-          "damage": {
-            "numberOfDice": 1,
-            "dieType": 8
-          }
-        }
-      ],
-      "actions": []
+      "abilities": ["MANOEUVRES", "SUPERIORITY_DICE"]
     },
     "7": {
-      "abilities": [
-        {
-          "name": "Manoeuvres",
-          "type": "attackType",
-          "numberOfTypes": 5
-        },
-        {
-          "name": "Superiority Dice",
-          "type": "resourceCharges",
-          "charges": 5,
-          "restType": "short",
-          "damage": {
-            "numberOfDice": 1,
-            "dieType": 8
-          }
-        }
+      "abilities": ["MANOEUVRES",
+        "SUPERIORITY_DICE"
       ]
     },
     "10": {
-      "abilities": [
-        {
-          "name": "Improved Combat Superiority",
-          "type": "dieBoost",
-          "damage": {
-            "dieType": 10,
-            "numberOfDice": 1
-          }
-        },
-        {
-          "name": "Manoeuvres",
-          "type": "attackType",
-          "numberOfTypes": 7
-        }
+      "abilities": ["IMPROVED_COMBAT_SUPERIORITY",
+        "MANOEUVRES"
       ]
     }
   }

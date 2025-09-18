@@ -1,0 +1,23 @@
+{
+  "name": "Martial Prodigy",
+  "label": "MARTIAL_PRODIGY",
+  "baseWeaponProficiencies": {
+    "martialMelee": {
+      "versatile": [
+        "longsword"
+      ],
+      "finesse1H": [
+        "shortsword"
+      ],
+      "normal2H": [
+        "greatsword"
+      ]
+    }
+  },
+  "armorProficiencies": [
+    "clothing",
+    "light",
+    "medium"
+  ],
+  "type": "weaponAndArmorProficiency"
+}

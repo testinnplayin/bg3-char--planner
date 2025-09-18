@@ -1,0 +1,8 @@
+{
+  "name": "Legacy of Avernus",
+  "label": "LEGACY_OF_AVERNUS",
+  "type": "raceAbility",
+  "spell": "THAUMATURGY",
+  "timesPerLongRest": "infinity",
+  "castingLevel": 1
+}

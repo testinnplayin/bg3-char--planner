@@ -1,0 +1,12 @@
+{
+  "name": "Tiefling",
+  "label": "TIEFLING",
+  "type": "race",
+  "size": "M",
+  "movementInMeters": 9,
+  "subraces": ["asmodeusTiefling", "mephistophelesTiefling", "ZARIEL_TIEFLING"],
+  "abilities": [
+    "DARKVISION"
+  ],
+  "passives": ["HELLISH_RESISTANCE"]
+}

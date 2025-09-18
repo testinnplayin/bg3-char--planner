@@ -5,29 +5,7 @@
   "movementInMeters": 9,
   "subraces": [],
   "abilities": [
-    {
-      "name": " Civil Militia",
-      "type": "weaponAndArmorProficiency",
-      "baseWeaponProficiencies": {
-        "simpleMelee": {
-          "versatile": ["spears"]
-        },
-        "martialMelee": {
-          "polearms": ["pikes", "halberds", "glaives"]
-        },
-        "other": ["shields"]
-      },
-      "armorProficiencies": ["clothing", "light"]
-    },
-    {
-      "name": "Human Versatility",
-      "type": "additionalSkillProficiency",
-      "bonusSkillProciency": 1
-    },
-    {
-      "name": "Human Versatility",
-      "type": "additionalCarryWeight",
-      "carryWeightBonus": 0.25
-    }
+    "CIVIL_MILITIA",
+    "HUMAN_VERSATILITY"
   ]
 }

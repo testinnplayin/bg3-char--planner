@@ -1,0 +1,8 @@
+{
+  "name": "Zariel Tiefling",
+  "label": "ZARIEL_TIEFLING",
+  "type": "subrace",
+  "spellAbility": "charisma",
+  "actions": ["LEGACY_OF_AVERNUS"],
+  "actionBonusActions": ["LEGACY_OF_AVERNUS"]
+}

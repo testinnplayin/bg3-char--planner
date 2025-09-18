@@ -1,0 +1,11 @@
+{
+  "name": "Fey Ancestry",
+  "label": "FEY_ANCESTRY",
+  "type": "passiveBuff",
+  "immunityTypes": [
+    "sleep"
+  ],
+  "resistanceTypes": [
+    "charm"
+  ]
+}

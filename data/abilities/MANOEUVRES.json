@@ -1,0 +1,10 @@
+{
+  "name": "Manoeuvres",
+  "numberOfTypes": 3,
+  "growth": {
+    "levelGrowth": ["7", "10"],
+    "numberOfChargesPerGrowthInstance": 2
+  },
+  "label": "MANOEUVRES",
+  "type": "attackType"
+}

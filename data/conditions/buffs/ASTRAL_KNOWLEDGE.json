@@ -1,0 +1,13 @@
+{
+  "name": "Astral Knowledge",
+  "label": "ASTRAL_KNOWLEDGE",
+  "type": "buff",
+  "skills": [
+    "all"
+  ],
+  "skillCategory": [
+    "all"
+  ],
+  "timesPerLongRest": 1,
+  "duration": "longRest"
+}

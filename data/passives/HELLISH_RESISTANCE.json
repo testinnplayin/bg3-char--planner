@@ -1,0 +1,12 @@
+{
+  "name": "Hellish Resistance",
+  "label": "HELLISH_RESISTANCE",
+  "type": "passiveDamageSoak",
+  "damageType": "fire",
+  "permanent": {
+    "soak": {
+      "ko": "half",
+      "ok": "all"
+    }
+  }
+}

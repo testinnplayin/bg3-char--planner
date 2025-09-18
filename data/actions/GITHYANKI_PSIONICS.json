@@ -1,0 +1,17 @@
+{
+  "name": "Githyanki Psionics",
+  "label": "GITHYANKI_PSIONICS",
+  "type": "raceAction",
+  "progression": {
+    "1": {
+      "actions": ["MAGE_HAND"]
+    },
+    "3": {
+      "actions": ["ENHANCED_LEAP"]
+    },
+    "5": {
+      "bonusActions": ["MISTY_STEP"]
+    }
+  },
+  "timesPerLongRest": 1
+}

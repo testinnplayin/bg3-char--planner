@@ -1,0 +1,11 @@
+{
+  "name": "Improved Combat Superiority",
+  "label": "IMPROVED_COMBAT_SUPERIORITY",
+  "restType": "shortRest",
+  "defaultNumberOfCharges": 7,
+  "damage": {
+    "dieType": 10,
+    "numberOfDice": 1
+  },
+  "type": "resourceCharges"
+}

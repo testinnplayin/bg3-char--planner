@@ -1,0 +1,16 @@
+{
+  "name": "Legacy of Avernus",
+  "label": "LEGACY_OF_AVERNUS",
+  "type": "raceActionBonusAction",
+  "progression": {
+    "3": {
+      "actionBonusActions": ["SEARING_SMITE"],
+      "castingLevel": 1
+    },
+    "5": {
+      "actionBonusActions": ["BRANDING_SMITE"],
+      "castingLevel": 2
+    }
+  },
+  "timesPerLongRest": 1
+}
