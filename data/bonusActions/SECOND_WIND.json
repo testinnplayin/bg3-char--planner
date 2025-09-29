@@ -1,0 +1,15 @@
+{
+  "name": "Second Wind",
+  "label": "SECOND_WIND",
+  "restType": "shortRest",
+  "type": "heal",
+  "heal": {
+    "numberOfDice": 1,
+    "dieType": 10,
+    "bonus": 1,
+    "target": "self",
+    "numberOfTargets": 1
+  },
+  "timesPerTurn": 1,
+  "timesPerCombat": 1
+}

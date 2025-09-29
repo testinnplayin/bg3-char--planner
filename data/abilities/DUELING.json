@@ -1,0 +1,10 @@
+{
+  "name": "Dueling",
+  "label": "DUELING",
+  "damage": {
+    "additionalDamage": 2,
+    "isDamageRider": false
+  },
+  "conditionals": ["not2HMeleeWeapon", "noOffHandMeleeWeapon"],
+  "type": "fightingStyle"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Indomitable",
+  "label": "INDOMITABLE",
+  "type": "buff",
+  "savingThrows": [
+    "all"
+  ],
+  "soak": {
+    "ko": "reroll"
+  },
+  "conditionals": [
+    "once"
+  ],
+  "timesPerCombat": 1,
+  "restType": "long"
+}

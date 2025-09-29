@@ -1,0 +1,7 @@
+{
+  "name": "Archery",
+  "label": "ARCHERY",
+  "toHit": 2,
+  "conditionals": ["rangedAttack"],
+  "type": "fightingStyle"
+}

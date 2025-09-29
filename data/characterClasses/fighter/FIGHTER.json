@@ -68,40 +68,16 @@
       "proficiencyBonus": 2,
       "hps": 10,
       "bonusActions": [
-        {
-          "name": "Second Wind",
-          "restType": "short",
-          "type": "selfHeal",
-          "heal": {
-            "numberOfDice": 1,
-            "dieType": 10,
-            "bonus": 1
-          },
-          "timesPerTurn": 1,
-          "timesPerCombat": 1
-        }
+        "SECOND_WIND"
       ],
       "abilities": [
-        {
-          "name": "Fighting Style",
-          "type": "fightingStyles",
-          "fightingStyles": ["all"]
-        }
+        "WARRIOR_FIGHTING_STYLES"
       ]
     },
     "2": {
       "proficiencyBonus": 2,
       "hps": 16,
-      "abilities": [
-        {
-          "name": "Action Surge",
-          "type": "additionalActions",
-          "restType": "short",
-          "numberOfActions": "double",
-          "timesPerCombat": 1,
-          "durationInTurns": 1
-        }
-      ]
+      "abilities": ["ACTION_SURGE"]
     },
     "3": {
       "proficiencyBonus": 2,
@@ -116,28 +92,7 @@
     "5": {
       "proficiencyBonus": 3,
       "hps": 34,
-      "actions": [
-        {
-          "name": "Extra Attack (Melee)",
-          "type": "meleeAttack",
-          "timesPerTurn": 1
-        },
-        {
-          "name": "Extra Attack (Ranged)",
-          "type": "rangedAttack",
-          "timesPerTurn": 1
-        }
-      ],
-      "abilities": [
-        {
-          "name": "Extra Attack",
-          "type": "additionalAttacks",
-          "conditionals": [
-            "meleeAttack",
-            "rangedAttack"
-          ]
-        }
-      ]
+      "actions": ["EXTRA_ATTACK"]
     },
     "6": {
       "proficiencyBonus": 3,
@@ -156,19 +111,7 @@
     "9": {
       "proficiencyBonus": 4,
       "hps": 58,
-      "abilities": [
-        {
-          "name": "Indomitable",
-          "type": "savingThrowReroll",
-          "savingThrows": ["all"],
-          "soak": {
-            "ko": "reroll"
-          },
-          "conditionals": ["once"],
-          "timesPerCombat": 1,
-          "restType": "long"
-        }
-      ]
+      "abilities": ["INDOMITABLE"]
     },
     "10": {
       "proficiencyBonus": 4,
@@ -177,20 +120,7 @@
     "11": {
       "proficiencyBonus": 4,
       "hps": 70,
-      "actions": [
-        {
-          "name": "Improved Extra Attack (Melee)",
-          "type": "meleeAttack",
-          "timesPerTurn": 2
-        }
-      ],
-      "abilities": [
-        {
-          "name": "Improved Extra Attack",
-          "type": "additionalActions",
-          "conditionals": ["meleeAttack"]
-        }
-      ]
+      "actions": ["IMPROVED_EXTRA_ATTACK"]
     },
     "12": {
       "proficiencyBonus": 4,

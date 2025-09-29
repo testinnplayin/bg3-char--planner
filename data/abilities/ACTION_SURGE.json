@@ -1,0 +1,9 @@
+{
+  "name": "Action Surge",
+  "label": "ACTION_SURGE",
+  "restType": "shortRest",
+  "numberOfActions": "double",
+  "timesPerCombat": 1,
+  "durationInTurns": 1,
+  "type": "additionalActions"
+}

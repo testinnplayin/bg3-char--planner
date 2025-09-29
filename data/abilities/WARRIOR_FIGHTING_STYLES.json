@@ -1,0 +1,13 @@
+{
+  "name": "Warrior Fighting Styles",
+  "label": "WARRIOR_FIGHTING_STYLES",
+  "type": "fightingStyle",
+  "abilities": [
+    "ARCHERY",
+    "DEFENCE",
+    "DUELING",
+    "GREAT_WEAPON_FIGHTING",
+    "PROTECTION",
+    "TWO-WEAPON_FIGHTING"
+  ]
+}

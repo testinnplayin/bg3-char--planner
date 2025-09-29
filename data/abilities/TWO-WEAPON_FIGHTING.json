@@ -1,0 +1,9 @@
+{
+  "name": "Two-weapon Fighting",
+  "label": "TWO-WEAPON_FIGHTING",
+  "damage": {
+    "additionalDamageAttributes": ["strength", "dexterity"]
+  },
+  "conditionals": ["ifOffHandWeapon", "offHand"],
+  "type": "fightingStyle"
+}

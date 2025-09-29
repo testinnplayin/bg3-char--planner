@@ -1,0 +1,7 @@
+{
+  "name": "Protection",
+  "label": "PROTECTION",
+  "toBeHit": "disadvantage",
+  "conditionals": ["ifShielded"],
+  "type": "fightingStyle"
+}

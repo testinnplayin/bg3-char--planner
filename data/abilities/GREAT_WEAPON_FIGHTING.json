@@ -1,0 +1,8 @@
+{
+  "name": "Great Weapon Fighting",
+  "label": "GREAT_WEAPON_FIGHTING",
+  "damageReroll": true,
+  "timesPerAttack": 1,
+  "conditionals": ["damageIs1", "damageIs2"],
+  "type": "fightingStyle"
+}

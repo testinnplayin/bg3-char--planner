@@ -1,0 +1,10 @@
+{
+  "name": "Improved Extra Attack",
+  "label": "IMPROVED_EXTRA_ATTACK",
+  "conditionals": [
+    "meleeAttack",
+    "rangedAttack"
+  ],
+  "timesPerTurn": 2,
+  "type": "additionalWeaponAttack"
+}

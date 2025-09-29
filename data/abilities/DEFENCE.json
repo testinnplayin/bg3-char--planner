@@ -1,0 +1,7 @@
+{
+  "name": "Defence",
+  "label": "DEFENCE",
+  "acBonus": 2,
+  "conditionals": ["armored"],
+  "type": "fightingStyle"
+}
