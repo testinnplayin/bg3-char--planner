@@ -1,0 +1,20 @@
+{
+  "name": "Astarion",
+  "label": "ASTARION_BASE",
+  "description": "Vampire Spawn",
+  "raceInformation": {
+    "race": "ELF",
+    "subRace": "HIGH_ELF"
+  },
+  "category": "ORIGIN",
+  "class": "ROGUE",
+  "subclass": "ARCANE_TRICKSTER",
+  "level": 1,
+  "background": "CHARLATAN",
+  "defaultSkillProficiencies": ["acrobatics", "deception", "perception", "persuasion", "sleightOfHand", "stealth"],
+  "defaultExpertises": ["sleightOfHand", "stealth"],
+  "other": {
+    "bonusActions": ["VAMPIRE_BITE_PASSIVE", "VAMPIRE_BITE_ATTACK"],
+    "unlockable": ["ASCENDANT_BITE", "MISTY_ESCAPE", "VAMPIRE_ASCENDANT"]
+  }
+}

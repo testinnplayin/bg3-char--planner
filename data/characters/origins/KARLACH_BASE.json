@@ -1,0 +1,19 @@
+{
+  "name": "Karlach",
+  "label": "KARLACH_BASE",
+  "description": "Fury of Avernus",
+  "raceInformation": {
+    "race": "TIEFLING",
+    "label": "ZARIEL_TIEFLING",
+    "subrace": "ZARIEL"
+  },
+  "category": "ORIGIN",
+  "class": "BARBARIAN",
+  "subclass": "BERSERKER",
+  "level": 1,
+  "background": "OUTLANDER",
+  "other": {
+    "abilities": ["SOUL_COINS"],
+    "passives": ["HEART_OF_IRON", "HEART_ABLAZE"]
+  }
+}

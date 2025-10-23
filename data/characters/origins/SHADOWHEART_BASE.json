@@ -1,0 +1,19 @@
+{
+  "name": "Shadowheart",
+  "label": "SHADOWHEART_BASE",
+  "description": "Devoted cleric",
+  "raceInformation": {
+    "race": "HALF-ELF",
+    "label": "HIGH_HALF-ELF",
+    "subrace": "HIGH"
+  },
+  "category": "ORIGIN",
+  "class": "CLERIC",
+  "subclass": "TRICKERY_DOMAIN",
+  "level": 1,
+  "background": "ACOLYTE",
+  "other": {
+    "abilities": ["FEAR_OF_WOLVES"],
+    "passives": ["SHADOW_CURSE_MINOR_RESISTANCE"]
+  }
+}

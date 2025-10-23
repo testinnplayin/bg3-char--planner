@@ -1,0 +1,16 @@
+{
+  "name": "The Dark Urge",
+  "label": "DARK_URGE_BASE",
+  "description": "",
+  "raceInformation": {
+    "race": "DRAGON_BORN",
+    "label": "WHITE",
+    "subrace": "WHITE_DRAGON_BORN"
+  },
+  "category": "ORIGIN",
+  "class": "SORCERER",
+  "subclass": "STORM",
+  "level": 1,
+  "background": "HAUNTED_ONE",
+  "other": {}
+}

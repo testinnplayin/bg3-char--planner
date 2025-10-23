@@ -1,0 +1,17 @@
+{
+  "name": "Wyll",
+  "label": "WYLL_BASE",
+  "description": "Living legend",
+  "raceInformation": {
+    "race": "HUMAN",
+    "label": "HUMAN"
+  },
+  "category": "ORIGIN",
+  "class": "WARLOCK",
+  "subclass": "FIEND",
+  "level": 1,
+  "background": "FOLK_HERO",
+  "other": {
+    "abilities": ["RAPIER_PROFICIENCY"]
+  }
+}

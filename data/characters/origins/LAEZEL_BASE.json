@@ -1,0 +1,15 @@
+{
+  "name": "Lae'zel",
+  "label": "LAEZEL_BASE",
+  "description": "Ferocious Warrior",
+  "raceInformation": {
+    "race": "GITHYANKI",
+    "label": "githyanki"
+  },
+
+  "category": "ORIGIN",
+  "class": "FIGHTER",
+  "subclass": "BATTLE_MASTER",
+  "level": 1,
+  "background": "SOLDIER"
+}
