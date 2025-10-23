@@ -1,2 +1,2 @@
-export * from './GetBaseCharacter';
+export * from './GetBaseCharacterUseCase';
 export * from './UseCase';
